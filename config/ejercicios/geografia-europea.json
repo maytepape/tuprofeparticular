@@ -1,0 +1,47 @@
+{
+  "numeroPreguntas": 6,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuál es la capital de Francia?",
+      "tipo": "opciones",
+      "opciones": ["Londres", "París", "Berlín", "Madrid"],
+      "respuestas_correctas": ["París"]
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuántos países hay aproximadamente en Europa?",
+      "tipo": "opciones",
+      "opciones": ["30", "44", "60", "25"],
+      "respuestas_correctas": ["44"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Selecciona los países que tienen costa en el Mar Mediterráneo:",
+      "tipo": "multiopciones",
+      "opciones": ["España", "Alemania", "Italia", "Polonia", "Grecia"],
+      "respuestas_correctas": ["España", "Italia", "Grecia"]
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál es el río más largo de Europa?",
+      "tipo": "opciones",
+      "opciones": ["Danubio", "Volga", "Rin", "Támesis"],
+      "respuestas_correctas": ["Volga"]
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué país europeo tiene forma de bota?",
+      "tipo": "opciones",
+      "opciones": ["Grecia", "Portugal", "Italia", "Croacia"],
+      "respuestas_correctas": ["Italia"]
+    },
+    {
+      "id": 6,
+      "pregunta": "Selecciona las capitales de países nórdicos:",
+      "tipo": "multiopciones",
+      "opciones": ["Estocolmo", "Roma", "Oslo", "Copenhague", "Atenas"],
+      "respuestas_correctas": ["Estocolmo", "Oslo", "Copenhague"]
+    }
+  ]
+}

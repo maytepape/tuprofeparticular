@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugando - Mi Profe Particular</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="game-header">
+            <h1>🎓 Mi Profe Particular</h1>
+            <div class="game-info">
+                <div class="lives-container">
+                    <span class="lives-label">Vidas:</span>
+                    <span id="lives-display" class="lives">❤️ ❤️ ❤️</span>
+                </div>
+                <div class="progress-container">
+                    <span id="question-counter">Pregunta 1 de 10</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="game-content">
+            <div class="question-card">
+                <h2 id="question-text" class="question-text">Cargando pregunta...</h2>
+                
+                <div id="answer-container" class="answer-container">
+                    <!-- Las respuestas se generarán dinámicamente aquí -->
+                </div>
+
+                <div id="feedback-container" class="feedback-container" style="display: none;">
+                    <div class="feedback-content">
+                        <img id="feedback-img" src="" alt="Feedback" class="feedback-img">
+                        <p id="feedback-text" class="feedback-text"></p>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button id="check-btn" class="btn btn-primary">
+                        Comprobar respuesta
+                    </button>
+                    <button id="next-btn" class="btn btn-success" style="display: none;">
+                        Siguiente pregunta →
+                    </button>
+                    <button id="retry-btn" class="btn btn-warning" style="display: none;">
+                        Volver a intentarlo
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Hecho por vuestra Tia con ❤️</p>
+        </footer>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>

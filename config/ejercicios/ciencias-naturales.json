@@ -1,0 +1,45 @@
+{
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuántos planetas hay en el Sistema Solar?",
+      "tipo": "numero",
+      "respuestas_correctas": [8]
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuál es el planeta más grande del Sistema Solar?",
+      "tipo": "opciones",
+      "opciones": ["Marte", "Júpiter", "Saturno", "Neptuno"],
+      "respuestas_correctas": ["Júpiter"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Selecciona los animales mamíferos:",
+      "tipo": "multiopciones",
+      "opciones": ["Perro", "Serpiente", "Ballena", "Águila", "Elefante"],
+      "respuestas_correctas": ["Perro", "Ballena", "Elefante"]
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué gas respiramos para vivir?",
+      "tipo": "opciones",
+      "opciones": ["Oxígeno", "Hidrógeno", "Nitrógeno", "Dióxido de carbono"],
+      "respuestas_correctas": ["Oxígeno"]
+    },
+    {
+      "id": 5,
+      "pregunta": "¿A qué temperatura hierve el agua a nivel del mar? (en grados Celsius)",
+      "tipo": "numero",
+      "respuestas_correctas": [100]
+    },
+    {
+      "id": 6,
+      "pregunta": "Selecciona las fuentes de energía renovable:",
+      "tipo": "multiopciones",
+      "opciones": ["Solar", "Petróleo", "Eólica", "Carbón", "Hidroeléctrica"],
+      "respuestas_correctas": ["Solar", "Eólica", "Hidroeléctrica"]
+    }
+  ]
+}

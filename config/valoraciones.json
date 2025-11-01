@@ -1,0 +1,34 @@
+{
+  "aciertos": [
+    "¡Excelente! ¡Lo has clavado! 🎯",
+    "¡Perfecto! ¡Eres un genio! 🌟",
+    "¡Muy bien! ¡Sigue así! 👏",
+    "¡Fantástico! ¡Respuesta correcta! ✨",
+    "¡Increíble! ¡Vas por buen camino! 🚀",
+    "¡Bravo! ¡Eso es! 💪",
+    "¡Magnífico! ¡Lo sabías! 🎊",
+    "¡Correcto! ¡Eres brillante! 💡"
+  ],
+  "fallos": [
+    "¡Ups! No es la respuesta correcta. ¡Inténtalo otra vez! 💪",
+    "¡Casi! Pero no es esa. ¡Vamos, tú puedes! 🔄",
+    "No te preocupes, todos nos equivocamos. ¡Dale otra oportunidad! 😊",
+    "¡Ánimo! La práctica hace al maestro. ¡Intenta de nuevo! 🎯",
+    "¡Oops! Esa no era. Pero estoy segura de que la próxima la acertarás 🌟",
+    "¡No pasa nada! Aprende del error y vuelve a intentarlo 📚"
+  ],
+  "final_correcto": [
+    "¡Enhorabuena! Has demostrado que eres un auténtico maestro. ¡Estoy muy orgullosa de ti! 🎉🌟",
+    "¡Increíble! Has completado todas las preguntas con éxito. ¡Eres increíble! 🏆✨",
+    "¡Wow! ¡Qué brillante eres! Has superado el reto con nota. ¡Felicidades! 🎊💫",
+    "¡Fantástico trabajo! Has demostrado tus conocimientos. ¡Sigue así, campeón! 🥇🎯",
+    "¡Bravo! Lo has conseguido. Sabía que podías hacerlo. ¡Eres el mejor! 👏💪"
+  ],
+  "final_incorrecto": [
+    "No te preocupes, cariño. Todos tenemos días difíciles. ¡La próxima vez lo conseguirás! 💕",
+    "¡Ánimo! El error es parte del aprendizaje. Vuelve a intentarlo con más calma 🌈",
+    "No pasa nada, tesoro. Practica un poco más y verás como lo consigues. ¡Confío en ti! 💪✨",
+    "Tranquilo/a. Cada intento te hace más fuerte. ¡No te rindas! 🌟💙",
+    "Recuerda: el éxito es la suma de pequeños esfuerzos. ¡Vuelve a intentarlo! 🚀💫"
+  ]
+}
