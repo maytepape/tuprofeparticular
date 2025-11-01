@@ -40,10 +40,10 @@ async function init() {
     
     try {
         // Cargar valoraciones
-        gameState.valoraciones = await cargarJSON('/config/valoraciones.json');
+        gameState.valoraciones = await cargarJSON('./config/valoraciones.json');
         
         // Cargar ejercicio
-        const ejercicioData = await cargarJSON(`/config/ejercicios/${ejercicioSeleccionado}`);
+        const ejercicioData = await cargarJSON(`./config/ejercicios/${ejercicioSeleccionado}`);
         gameState.preguntasOriginales = ejercicioData.preguntas;
         gameState.numeroPreguntas = ejercicioData.numeroPreguntas;
         
