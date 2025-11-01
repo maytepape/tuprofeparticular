@@ -257,10 +257,10 @@ function comprobarRespuesta() {
                 const valor = option.dataset.valor;
                 option.classList.add('disabled');
                 
-                if (pregunta.respuestas_correctas.includes(valor)) {
+                if (esCorrecta && pregunta.respuestas_correctas.includes(valor)) {
                     option.classList.add('correct');
                     option.querySelector('.option-icon').textContent = '✅';
-                } else if (valor === valorRadio) {
+                } else if (!esCorrecta && valor === valorRadio) {
                     option.classList.add('incorrect');
                     option.querySelector('.option-icon').textContent = '❌';
                 }
@@ -286,10 +286,10 @@ function comprobarRespuesta() {
                 const valor = option.dataset.valor;
                 option.classList.add('disabled');
                 
-                if (pregunta.respuestas_correctas.includes(valor)) {
+                if (esCorrecta && pregunta.respuestas_correctas.includes(valor)) {
                     option.classList.add('correct');
                     option.querySelector('.option-icon').textContent = '✅';
-                } else if (checkboxesSeleccionados.includes(valor)) {
+                } else if (!esCorrecta && checkboxesSeleccionados.includes(valor)) {
                     option.classList.add('incorrect');
                     option.querySelector('.option-icon').textContent = '❌';
                 }
