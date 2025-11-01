@@ -12,7 +12,7 @@ const startBtn = document.getElementById('start-btn');
 // los archivos JSON disponibles
 const ejerciciosDisponibles = [
     'matematicas-fracciones.json',
-    'geografia-europa.json',
+    'geografia-europea.json',
     'ciencias-naturales.json'
 ];
 
