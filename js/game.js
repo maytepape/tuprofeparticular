@@ -266,12 +266,6 @@ function comprobarRespuesta() {
             
         case 'texto':
             const inputText = document.getElementById('text-respuesta');
-            //const valorText = parseFloat(inputText.value);
-            
-            if (isNaN(inputText)) {
-                alert('Por favor, ingresa un texto válido');
-                return;
-            }
             
             esCorrecta = pregunta.respuestas_correctas.includes(inputText);
             
