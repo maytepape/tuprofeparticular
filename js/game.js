@@ -266,6 +266,8 @@ function comprobarRespuesta() {
             
         case 'texto':
             const inputText = document.getElementById('text-respuesta');
+            alert(inputText)
+            alert(pregunta.respuestas_correctas)
             
             esCorrecta = pregunta.respuestas_correctas.includes(inputText);
             
