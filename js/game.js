@@ -266,14 +266,14 @@ function comprobarRespuesta() {
             
         case 'texto':
             const inputText = document.getElementById('text-respuesta');
-            const valorText = parseFloat(inputText.value);
+            //const valorText = parseFloat(inputText.value);
             
-            if (isNaN(valorText)) {
+            if (isNaN(inputText)) {
                 alert('Por favor, ingresa un texto válido');
                 return;
             }
             
-            esCorrecta = pregunta.respuestas_correctas.includes(valorText);
+            esCorrecta = pregunta.respuestas_correctas.includes(inputText);
             
             // Marcar input
             if (esCorrecta) {
