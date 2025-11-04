@@ -266,10 +266,9 @@ function comprobarRespuesta() {
             
         case 'texto':
             const inputText = document.getElementById('text-respuesta');
-            alert(inputText)
-            alert(pregunta.respuestas_correctas)
+            const valorText = inputNumero.value;
             
-            esCorrecta = pregunta.respuestas_correctas.includes(inputText);
+            esCorrecta = pregunta.respuestas_correctas.includes(valorText);
             
             // Marcar input
             if (esCorrecta) {
