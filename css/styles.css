@@ -272,13 +272,15 @@ header h1 {
 }
 
 /* Tipo: número */
-.number-input-container {
+.number-input-container,
+.text-input-container {
     display: flex;
     gap: 15px;
     align-items: center;
 }
 
-.number-input {
+.number-input,
+.text-input {
     flex: 1;
     padding: 15px;
     font-size: 1.2rem;
@@ -287,17 +289,20 @@ header h1 {
     text-align: center;
 }
 
-.number-input:focus {
+.number-input:focus,
+.text-input:focus {
     outline: none;
     border-color: var(--primary-color);
 }
 
-.number-input.correct {
+.number-input.correct,
+.text-input.correct {
     border-color: var(--success-color);
     background: #d4edda;
 }
 
-.number-input.incorrect {
+.number-input.incorrect,
+.text-input.incorrect {
     border-color: var(--danger-color);
     background: #f8d7da;
 }
