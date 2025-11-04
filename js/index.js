@@ -11,7 +11,12 @@ const startBtn = document.getElementById('start-btn');
 // Como estamos usando JavaScript vanilla en el navegador, definimos manualmente
 // los archivos JSON disponibles
 const ejerciciosDisponibles = [
-    'matematicas-fracciones.json',
+    'matematicas-fracciones-equivalentes.json',
+    'matematicas-ordenacion-fracciones.json',
+    'matematicas-fracciones-generatrices.json',
+    'matematicas-fracciones-decimales.json',
+    'matematicas-operaciones-combinadas.json',
+    'matematicas-operaciones-fracciones.json',
     'geografia-europea.json',
     'ciencias-naturales.json'
 ];
