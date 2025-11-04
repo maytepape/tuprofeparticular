@@ -1,0 +1,25 @@
+{
+  "numeroPreguntas": 5,
+  "preguntas": [
+    { "id": 1, "pregunta": "Convierte 0,75 en fracción", "tipo": "numero", "respuestas_correctas": ["3/4"] },
+    { "id": 2, "pregunta": "Convierte 0,2 en fracción", "tipo": "numero", "respuestas_correctas": ["1/5"] },
+    { "id": 3, "pregunta": "Convierte 0,125 en fracción", "tipo": "numero", "respuestas_correctas": ["1/8"] },
+    { "id": 4, "pregunta": "Convierte 0,5 en fracción", "tipo": "numero", "respuestas_correctas": ["1/2"] },
+    { "id": 5, "pregunta": "Convierte 0,333... en fracción", "tipo": "numero", "respuestas_correctas": ["1/3"] },
+    { "id": 6, "pregunta": "Convierte 0,666... en fracción", "tipo": "numero", "respuestas_correctas": ["2/3"] },
+    { "id": 7, "pregunta": "Convierte 0,875 en fracción", "tipo": "numero", "respuestas_correctas": ["7/8"] },
+    { "id": 8, "pregunta": "Convierte 0,4 en fracción", "tipo": "numero", "respuestas_correctas": ["2/5"] },
+    { "id": 9, "pregunta": "Convierte 0,9 en fracción", "tipo": "numero", "respuestas_correctas": ["9/10"] },
+    { "id": 10, "pregunta": "Convierte 0,625 en fracción", "tipo": "numero", "respuestas_correctas": ["5/8"] },
+    { "id": 11, "pregunta": "Convierte 0,2̅ en fracción", "tipo": "numero", "respuestas_correctas": ["2/9"] },
+    { "id": 12, "pregunta": "Convierte 0,16̅ en fracción", "tipo": "numero", "respuestas_correctas": ["1/6"] },
+    { "id": 13, "pregunta": "Convierte 1,25 en fracción", "tipo": "numero", "respuestas_correctas": ["5/4"] },
+    { "id": 14, "pregunta": "Convierte 2,5 en fracción", "tipo": "numero", "respuestas_correctas": ["5/2"] },
+    { "id": 15, "pregunta": "Convierte 3,75 en fracción", "tipo": "numero", "respuestas_correctas": ["15/4"] },
+    { "id": 16, "pregunta": "Convierte 0,0833... en fracción", "tipo": "numero", "respuestas_correctas": ["1/12"] },
+    { "id": 17, "pregunta": "Convierte 0,1 en fracción", "tipo": "numero", "respuestas_correctas": ["1/10"] },
+    { "id": 18, "pregunta": "Convierte 0,45 en fracción", "tipo": "numero", "respuestas_correctas": ["9/20"] },
+    { "id": 19, "pregunta": "Convierte 0,72 en fracción", "tipo": "numero", "respuestas_correctas": ["18/25"] },
+    { "id": 20, "pregunta": "Convierte 0,83̅ en fracción", "tipo": "numero", "respuestas_correctas": ["5/6"] }
+  ]
+}
