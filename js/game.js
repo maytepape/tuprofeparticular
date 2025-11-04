@@ -131,6 +131,9 @@ function mostrarPregunta() {
         case 'multiopciones':
             generarOpciones(true);
             break;
+        case 'text':
+            generarInputTexto;
+            break;
     }
     
     // Resetear respuesta actual
@@ -149,6 +152,26 @@ function generarInputNumero() {
     input.className = 'number-input';
     input.placeholder = 'Escribe tu respuesta';
     input.id = 'numero-respuesta';
+    
+    container.appendChild(input);
+    answerContainer.appendChild(container);
+    
+    // Focus automático
+    input.focus();
+}
+
+/**
+ * Genera un input para respuestas texto
+ */
+function generarInputTexto() {
+    const container = document.createElement('div');
+    container.className = 'text-input-container';
+    
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'text-input';
+    input.placeholder = 'Escribe tu respuesta';
+    input.id = 'text-respuesta';
     
     container.appendChild(input);
     answerContainer.appendChild(container);
@@ -241,6 +264,26 @@ function comprobarRespuesta() {
             inputNumero.disabled = true;
             break;
             
+        case 'texto':
+            const inputText = document.getElementById('text-respuesta');
+            const valorText = parseFloat(inputText.value);
+            
+            if (isNaN(valorText)) {
+                alert('Por favor, ingresa un texto válido');
+                return;
+            }
+            
+            esCorrecta = pregunta.respuestas_correctas.includes(valorText);
+            
+            // Marcar input
+            if (esCorrecta) {
+                inputText.classList.add('correct');
+            } else {
+                inputText.classList.add('incorrect');
+            }
+            inputText.disabled = true;
+            break;
+
         case 'opciones':
             const radioSeleccionado = document.querySelector('input[name="respuesta"]:checked');
             
