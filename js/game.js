@@ -131,8 +131,8 @@ function mostrarPregunta() {
         case 'multiopciones':
             generarOpciones(true);
             break;
-        case 'text':
-            generarInputTexto;
+        case 'texto':
+            generarInputTexto();
             break;
     }
     
