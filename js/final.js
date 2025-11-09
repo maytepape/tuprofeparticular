@@ -75,6 +75,9 @@ function mostrarVictoria(resultData, valoraciones) {
     
     // Imagen
     resultImg.src = 'img/victory.png';
+    resultImg.onerror = () => {
+        resultImg.style.display = 'none';
+    };
     resultImg.alt = 'Victoria';
     
     // Mensaje aleatorio
@@ -103,6 +106,9 @@ function mostrarDerrota(resultData, valoraciones) {
     
     // Imagen
     resultImg.src = 'img/defeat.png';
+    resultImg.onerror = () => {
+        resultImg.style.display = 'none';
+    };
     resultImg.alt = 'Derrota';
     
     // Mensaje aleatorio

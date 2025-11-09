@@ -5,6 +5,7 @@
 // Estado del juego
 const gameState = {
     vidas: 3,
+    vidasTotal: 3,
     preguntaActual: 0,
     preguntas: [],
     preguntasOriginales: [],
@@ -46,9 +47,15 @@ async function init() {
         const ejercicioData = await cargarJSON(`./config/ejercicios/${ejercicioSeleccionado}`);
         gameState.preguntasOriginales = ejercicioData.preguntas;
         gameState.numeroPreguntas = ejercicioData.numeroPreguntas;
+        if(ejercicioData.vidas){
+            gameState.vidas = gameState.vidasTotal = ejercicioData.vidas;
+        }
         
         // Preparar preguntas según la lógica especificada
         prepararPreguntas();
+
+        // Inicializar vidas
+        inicializaVidas();
         
         // Mostrar primera pregunta
         mostrarPregunta();
@@ -362,13 +369,27 @@ function mostrarFeedback(esCorrecta) {
         feedbackText.textContent = mensajeAleatorio;
         feedbackImg.src = 'img/success.png';
         feedbackImg.alt = 'Correcto';
+        feedbackImg.onerror = () => {
+            feedbackImg.style.display = 'none';
+        };
     } else {
         const mensajes = gameState.valoraciones.fallos;
         const mensajeAleatorio = mensajes[Math.floor(Math.random() * mensajes.length)];
         feedbackText.textContent = mensajeAleatorio;
         feedbackImg.src = 'img/error.png';
         feedbackImg.alt = 'Incorrecto';
+        feedbackImg.onerror = () => {
+            feedbackImg.style.display = 'none';
+        };
     }
+}
+
+/**
+ * Inicializa la visualización de vidas
+ */
+function inicializaVidas() {
+    const corazones = '❤️ '.repeat(gameState.vidasTotal);
+    livesDisplay.textContent = corazones;
 }
 
 /**
@@ -391,7 +412,7 @@ function restarVida() {
  */
 function actualizarVidas() {
     const corazones = '❤️ '.repeat(gameState.vidas);
-    const corazonesVacios = '🖤 '.repeat(3 - gameState.vidas);
+    const corazonesVacios = '🖤 '.repeat(gameState.vidasTotal - gameState.vidas);
     livesDisplay.textContent = corazones + corazonesVacios;
 }
 
