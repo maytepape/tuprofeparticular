@@ -56,6 +56,9 @@ async function init() {
 
         // Inicializar vidas
         inicializaVidas();
+
+        // Inicializa preguntas
+        iniciaNumeroPreguntas();
         
         // Mostrar primera pregunta
         mostrarPregunta();
@@ -390,6 +393,13 @@ function mostrarFeedback(esCorrecta) {
 function inicializaVidas() {
     const corazones = '❤️ '.repeat(gameState.vidasTotal);
     livesDisplay.textContent = corazones;
+}
+
+/**
+ * Inicializa el número de preguntas
+ */
+function iniciaNumeroPreguntas() {
+    questionCounter.textContent = `Pregunta 1 de ${gameState.preguntas.length}`;
 }
 
 /**
