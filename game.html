@@ -29,6 +29,12 @@
                     <!-- Las respuestas se generarán dinámicamente aquí -->
                 </div>
 
+                <div id="hint-container" class="hint-container" style="display: none;">
+                    <div class="hint-content">
+                        <p id="hint-text" class="hint-text"></p>
+                    </div>
+                </div>
+
                 <div id="feedback-container" class="feedback-container" style="display: none;">
                     <div class="feedback-content">
                         <img id="feedback-img" src="" alt="Feedback" class="feedback-img">
@@ -39,6 +45,9 @@
                 <div class="button-container">
                     <button id="check-btn" class="btn btn-primary">
                         Comprobar respuesta
+                    </button>
+                    <button id="hint-btn" class="btn btn-hint">
+                        Pedir pista
                     </button>
                     <button id="next-btn" class="btn btn-success" style="display: none;">
                         Siguiente pregunta →

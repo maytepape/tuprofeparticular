@@ -8,6 +8,7 @@ const gameState = {
     vidasTotal: 3,
     preguntaActual: 0,
     preguntas: [],
+    pistas: [],
     preguntasOriginales: [],
     numeroPreguntas: 0,
     respuestaActual: null,
@@ -19,10 +20,13 @@ const livesDisplay = document.getElementById('lives-display');
 const questionCounter = document.getElementById('question-counter');
 const questionText = document.getElementById('question-text');
 const answerContainer = document.getElementById('answer-container');
+const hintContainer = document.getElementById('hint-container');
+const hintText = document.getElementById('hint-text');
 const feedbackContainer = document.getElementById('feedback-container');
 const feedbackImg = document.getElementById('feedback-img');
 const feedbackText = document.getElementById('feedback-text');
 const checkBtn = document.getElementById('check-btn');
+const hintBtn = document.getElementById('hint-btn');
 const nextBtn = document.getElementById('next-btn');
 const retryBtn = document.getElementById('retry-btn');
 
@@ -66,6 +70,7 @@ async function init() {
         // Event listeners
         checkBtn.addEventListener('click', comprobarRespuesta);
         nextBtn.addEventListener('click', siguientePregunta);
+        hintBtn.addEventListener('click', pedirPista);
         retryBtn.addEventListener('click', volverAIntentar);
         
     } catch (error) {
@@ -122,12 +127,14 @@ function mostrarPregunta() {
     // Limpiar contenedor de respuestas
     answerContainer.innerHTML = '';
     
-    // Ocultar feedback
+    // Ocultar feedback y pistas
     feedbackContainer.style.display = 'none';
+    hintContainer.style.display = 'none';
     
     // Mostrar botón comprobar, ocultar otros
     checkBtn.style.display = 'inline-block';
     nextBtn.style.display = 'none';
+    hintBtn.style.display = 'none';
     retryBtn.style.display = 'none';
     
     // Generar respuestas según el tipo
@@ -357,6 +364,7 @@ function comprobarRespuesta() {
     } else {
         restarVida();
         retryBtn.style.display = 'inline-block';
+        hintBtn.style.display = 'inline-block';
     }
 }
 
@@ -424,6 +432,45 @@ function actualizarVidas() {
     const corazones = '❤️ '.repeat(gameState.vidas);
     const corazonesVacios = '🖤 '.repeat(gameState.vidasTotal - gameState.vidas);
     livesDisplay.textContent = corazones + corazonesVacios;
+}
+
+/**
+ * Pide una pista al jugador
+ */
+function pedirPista() {
+    const pregunta = gameState.preguntas[gameState.preguntaActual];
+
+    // Protección: pregunta inexistente
+    if (!pregunta) {
+        hintContainer.style.display = 'block';
+        hintText.textContent = 'No hay pistas disponibles.';
+        return;
+    }
+
+    // Protección: pistas no definidas o no son array
+    if (!Array.isArray(pregunta.pistas) || pregunta.pistas.length === 0) {
+        hintContainer.style.display = 'block';
+        hintText.textContent = 'No hay pistas disponibles.';
+        return;
+    }
+
+    // Filtrar pistas vacías/nulas y unir con un solo salto de línea entre ellas
+    const pistas = pregunta.pistas
+        .map(p => (p == null ? '' : String(p).trim()))
+        .filter(p => p.length > 0);
+
+    if (pistas.length === 0) {
+        hintContainer.style.display = 'block';
+        hintText.textContent = 'No hay pistas disponibles.';
+        return;
+    }
+
+    // Asegurar que los saltos de línea se renderizan correctamente
+    hintText.style.whiteSpace = 'pre-wrap';
+    hintText.textContent = pistas.join('\n');
+
+    // Mostrar contenedor de pistas
+    hintContainer.style.display = 'block';
 }
 
 /**

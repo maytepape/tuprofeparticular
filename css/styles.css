@@ -10,6 +10,7 @@
     --success-color: #27ae60;
     --warning-color: #f39c12;
     --danger-color: #e74c3c;
+    --hint-color: #8e44ad;
     --bg-color: #f5f7fa;
     --card-bg: #ffffff;
     --text-color: #2c3e50;
@@ -141,6 +142,11 @@ header h1 {
 
 .btn-success {
     background-color: var(--success-color);
+    color: white;
+}
+
+.btn-hint {
+    background-color: var(--hint-color);
     color: white;
 }
 
@@ -331,6 +337,27 @@ header h1 {
 .feedback-text {
     font-size: 1.1rem;
     font-weight: 600;
+    line-height: 1.5;
+}
+
+/* ===== PISTAS ===== */
+.hint-container {
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.hint-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.hint-text {
+    font-size: 1.1rem;
+    font-weight: 400;
     line-height: 1.5;
 }
 
