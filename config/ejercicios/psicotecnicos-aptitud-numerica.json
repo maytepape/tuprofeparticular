@@ -4,353 +4,353 @@
   "preguntas": [
     {
       "id": 1,
-      "pregunta": "¿Cuál es el sinónimo de la palabra 'afable'?",
+      "pregunta": "¿Qué número completa la serie? 2, 4, 8, 16, __",
       "tipo": "opciones",
-      "opciones": ["Amable", "Rudo", "Callado", "Orgulloso"],
-      "respuestas_correctas": ["Amable"]
+      "opciones": ["18", "20", "24", "32"],
+      "respuestas_correctas": ["32"]
     },
     {
       "id": 2,
-      "pregunta": "¿Qué palabra es antónima de 'frágil'?",
+      "pregunta": "Si un producto cuesta 120 € y tiene un descuento del 25%, ¿cuál es su precio final?",
       "tipo": "opciones",
-      "opciones": ["Débil", "Resistente", "Delicado", "Quebradizo"],
-      "respuestas_correctas": ["Resistente"]
+      "opciones": ["80 €", "90 €", "85 €", "95 €"],
+      "respuestas_correctas": ["90 €"]
     },
     {
       "id": 3,
-      "pregunta": "Completa la analogía: 'Libro' es a 'lectura' como 'pincel' es a...",
+      "pregunta": "Resuelve: 15 × 12 ÷ 6 = ?",
       "tipo": "opciones",
-      "opciones": ["Pintura", "Color", "Dibujo", "Lienzo"],
-      "respuestas_correctas": ["Pintura"]
+      "opciones": ["25", "30", "20", "15"],
+      "respuestas_correctas": ["30"]
     },
     {
       "id": 4,
-      "pregunta": "¿Qué palabra significa lo mismo que 'efímero'?",
+      "pregunta": "¿Cuál es el número siguiente en la serie? 5, 10, 20, 40, __",
       "tipo": "opciones",
-      "opciones": ["Duradero", "Breve", "Constante", "Eterno"],
-      "respuestas_correctas": ["Breve"]
+      "opciones": ["60", "70", "80", "100"],
+      "respuestas_correctas": ["80"]
     },
     {
       "id": 5,
-      "pregunta": "Selecciona el antónimo de 'moderado'.",
+      "pregunta": "Si 3 lápices cuestan 1,50 €, ¿cuánto cuestan 10 lápices?",
       "tipo": "opciones",
-      "opciones": ["Equilibrado", "Excesivo", "Sereno", "Tolerante"],
-      "respuestas_correctas": ["Excesivo"]
+      "opciones": ["4,50 €", "5 €", "5,50 €", "6 €"],
+      "respuestas_correctas": ["5 €"]
     },
     {
       "id": 6,
-      "pregunta": "¿Cuál de las siguientes palabras está mal escrita?",
+      "pregunta": "Resuelve: 48 ÷ 4 + 6 × 3 = ?",
       "tipo": "opciones",
-      "opciones": ["Excepción", "Preveer", "Recepción", "Percepción"],
-      "respuestas_correctas": ["Preveer"]
+      "opciones": ["36", "30", "42", "38"],
+      "respuestas_correctas": ["30"]
     },
     {
       "id": 7,
-      "pregunta": "¿Qué palabra completa la frase? 'El orador habló con gran _____ durante la conferencia.'",
+      "pregunta": "Si un coche recorre 240 km en 3 horas, ¿cuál es su velocidad media?",
       "tipo": "opciones",
-      "opciones": ["Elocuencia", "Eloquencia", "Elocuentez", "Eloquence"],
-      "respuestas_correctas": ["Elocuencia"]
+      "opciones": ["70 km/h", "75 km/h", "80 km/h", "85 km/h"],
+      "respuestas_correctas": ["80 km/h"]
     },
     {
       "id": 8,
-      "pregunta": "¿Qué palabra es un sinónimo de 'perezoso'?",
+      "pregunta": "Encuentra el número que falta: 3, 9, 27, __, 243",
       "tipo": "opciones",
-      "opciones": ["Vago", "Ágil", "Activo", "Rápido"],
-      "respuestas_correctas": ["Vago"]
+      "opciones": ["81", "72", "90", "108"],
+      "respuestas_correctas": ["81"]
     },
     {
       "id": 9,
-      "pregunta": "Completa la analogía: 'Planta' es a 'tierra' como 'pez' es a...",
+      "pregunta": "Resuelve: 7² - 5² = ?",
       "tipo": "opciones",
-      "opciones": ["Aire", "Agua", "Bosque", "Sol"],
-      "respuestas_correctas": ["Agua"]
+      "opciones": ["24", "12", "20", "14"],
+      "respuestas_correctas": ["24"]
     },
     {
       "id": 10,
-      "pregunta": "Selecciona el sinónimo más adecuado de 'celeridad'.",
+      "pregunta": "Si un número aumentado en 15 da 45, ¿cuál es el número?",
       "tipo": "opciones",
-      "opciones": ["Lentitud", "Rapidez", "Pesadez", "Dificultad"],
-      "respuestas_correctas": ["Rapidez"]
+      "opciones": ["25", "30", "35", "20"],
+      "respuestas_correctas": ["30"]
     },
     {
       "id": 11,
-      "pregunta": "¿Cuál es el antónimo de 'alegría'?",
+      "pregunta": "¿Cuál es el número que falta? 2, 5, 10, 17, __",
       "tipo": "opciones",
-      "opciones": ["Tristeza", "Euforia", "Satisfacción", "Optimismo"],
-      "respuestas_correctas": ["Tristeza"]
+      "opciones": ["24", "26", "28", "30"],
+      "respuestas_correctas": ["26"]
     },
     {
       "id": 12,
-      "pregunta": "¿Qué palabra tiene un significado similar a 'discrepancia'?",
+      "pregunta": "Si 5 kg de manzanas cuestan 12,50 €, ¿cuánto cuestan 8 kg?",
       "tipo": "opciones",
-      "opciones": ["Acuerdo", "Desacuerdo", "Coincidencia", "Concordancia"],
-      "respuestas_correctas": ["Desacuerdo"]
+      "opciones": ["18 €", "20 €", "19 €", "21 €"],
+      "respuestas_correctas": ["20 €"]
     },
     {
       "id": 13,
-      "pregunta": "¿Qué palabra está relacionada con el campo de la literatura?",
+      "pregunta": "Resuelve: 36 ÷ 3 × 2 = ?",
       "tipo": "opciones",
-      "opciones": ["Verso", "Hipótesis", "Vector", "Mecánica"],
-      "respuestas_correctas": ["Verso"]
+      "opciones": ["24", "18", "20", "22"],
+      "respuestas_correctas": ["24"]
     },
     {
       "id": 14,
-      "pregunta": "Selecciona la palabra que mejor complete la frase: 'El científico presentó una teoría _____ basada en la evidencia.'",
+      "pregunta": "Encuentra el patrón y completa la serie: 1, 4, 9, 16, __",
       "tipo": "opciones",
-      "opciones": ["Fundamentada", "Fundamental", "Fundida", "Fungible"],
-      "respuestas_correctas": ["Fundamentada"]
+      "opciones": ["20", "25", "24", "30"],
+      "respuestas_correctas": ["25"]
     },
     {
       "id": 15,
-      "pregunta": "Elige el sinónimo de 'melancolía'.",
+      "pregunta": "Si un artículo se vende por 200 € con un beneficio del 25%, ¿cuál fue el precio de coste?",
       "tipo": "opciones",
-      "opciones": ["Tristeza", "Alegría", "Diversión", "Risa"],
-      "respuestas_correctas": ["Tristeza"]
+      "opciones": ["150 €", "160 €", "155 €", "140 €"],
+      "respuestas_correctas": ["160 €"]
     },
     {
       "id": 16,
-      "pregunta": "¿Cuál es el antónimo de 'ascender'?",
+      "pregunta": "Resuelve: 50 - 12 × 3 + 6 = ?",
       "tipo": "opciones",
-      "opciones": ["Subir", "Bajar", "Elevar", "Aumentar"],
-      "respuestas_correctas": ["Bajar"]
+      "opciones": ["12", "32", "14", "20"],
+      "respuestas_correctas": ["32"]
     },
     {
       "id": 17,
-      "pregunta": "Selecciona el sinónimo de 'inevitable'.",
+      "pregunta": "¿Cuál es el siguiente número en la serie: 1, 2, 6, 24, __",
       "tipo": "opciones",
-      "opciones": ["Evitado", "Imposible de evitar", "Opcional", "Despreciable"],
-      "respuestas_correctas": ["Imposible de evitar"]
+      "opciones": ["48", "120", "72", "100"],
+      "respuestas_correctas": ["120"]
     },
     {
       "id": 18,
-      "pregunta": "Completa la analogía: 'Reloj' es a 'tiempo' como 'termómetro' es a...",
+      "pregunta": "Si un tren recorre 360 km en 4 horas, ¿cuál es su velocidad media?",
       "tipo": "opciones",
-      "opciones": ["Calor", "Temperatura", "Medición", "Frío"],
-      "respuestas_correctas": ["Temperatura"]
+      "opciones": ["80 km/h", "90 km/h", "100 km/h", "85 km/h"],
+      "respuestas_correctas": ["90 km/h"]
     },
     {
       "id": 19,
-      "pregunta": "¿Qué palabra está mal escrita?",
+      "pregunta": "Resuelve: 18 × 5 - 30 ÷ 2 = ?",
       "tipo": "opciones",
-      "opciones": ["Exámen", "Análisis", "Ensayo", "Evaluación"],
-      "respuestas_correctas": ["Exámen"]
+      "opciones": ["80", "75", "85", "70"],
+      "respuestas_correctas": ["80"]
     },
     {
       "id": 20,
-      "pregunta": "¿Qué palabra significa 'dar a entender algo sin decirlo directamente'?",
+      "pregunta": "Si un número es divisible por 2 y 3, ¿también es divisible por?",
       "tipo": "opciones",
-      "opciones": ["Insinuar", "Declarar", "Expresar", "Afirmar"],
-      "respuestas_correctas": ["Insinuar"]
+      "opciones": ["4", "5", "6", "8"],
+      "respuestas_correctas": ["6"]
     },
     {
       "id": 21,
-      "pregunta": "¿Cuál es el sinónimo más adecuado de 'tenaz'?",
+      "pregunta": "Completa la serie: 2, 3, 5, 8, 12, __",
       "tipo": "opciones",
-      "opciones": ["Constante", "Débil", "Indeciso", "Voluble"],
-      "respuestas_correctas": ["Constante"]
+      "opciones": ["16", "17", "18", "19"],
+      "respuestas_correctas": ["17"]
     },
     {
       "id": 22,
-      "pregunta": "Selecciona el antónimo de 'humildad'.",
+      "pregunta": "Resuelve: 100 ÷ (5 × 4) = ?",
       "tipo": "opciones",
-      "opciones": ["Sencillez", "Modestia", "Soberbia", "Respeto"],
-      "respuestas_correctas": ["Soberbia"]
+      "opciones": ["4", "5", "6", "7"],
+      "respuestas_correctas": ["5"]
     },
     {
       "id": 23,
-      "pregunta": "¿Qué palabra está relacionada con 'economía'?",
+      "pregunta": "Si un precio sube de 80 € a 100 €, ¿cuál es el porcentaje de aumento?",
       "tipo": "opciones",
-      "opciones": ["Mercado", "Bosque", "Río", "Montaña"],
-      "respuestas_correctas": ["Mercado"]
+      "opciones": ["20%", "25%", "15%", "30%"],
+      "respuestas_correctas": ["25%"]
     },
     {
       "id": 24,
-      "pregunta": "¿Cuál es el sinónimo de 'prolongar'?",
+      "pregunta": "Resuelve: 7 × 8 + 14 ÷ 2 = ?",
       "tipo": "opciones",
-      "opciones": ["Acortar", "Extender", "Reducir", "Finalizar"],
-      "respuestas_correctas": ["Extender"]
+      "opciones": ["64", "60", "66", "62"],
+      "respuestas_correctas": ["66"]
     },
     {
       "id": 25,
-      "pregunta": "Selecciona el antónimo de 'antiguo'.",
+      "pregunta": "¿Cuál es el número siguiente en la serie: 3, 6, 12, 24, __",
       "tipo": "opciones",
-      "opciones": ["Viejo", "Usado", "Moderno", "Pasado"],
-      "respuestas_correctas": ["Moderno"]
+      "opciones": ["36", "48", "60", "72"],
+      "respuestas_correctas": ["48"]
     },
     {
       "id": 26,
-      "pregunta": "¿Qué palabra es sinónima de 'hostil'?",
+      "pregunta": "Si 7 trabajadores completan un trabajo en 10 días, ¿cuántos días necesitarían 14 trabajadores para hacerlo (igual eficiencia)?",
       "tipo": "opciones",
-      "opciones": ["Amistoso", "Adverso", "Alegre", "Tímido"],
-      "respuestas_correctas": ["Adverso"]
+      "opciones": ["3", "5", "7", "10"],
+      "respuestas_correctas": ["5"]
     },
     {
       "id": 27,
-      "pregunta": "Completa la analogía: 'Pájaro' es a 'volar' como 'pez' es a...",
+      "pregunta": "Resuelve: 3² + 4² = ?",
       "tipo": "opciones",
-      "opciones": ["Nadar", "Respirar", "Cantar", "Caminar"],
-      "respuestas_correctas": ["Nadar"]
+      "opciones": ["25", "12", "16", "20"],
+      "respuestas_correctas": ["25"]
     },
     {
       "id": 28,
-      "pregunta": "Selecciona la palabra que está mal escrita.",
+      "pregunta": "Completa la serie: 1, 1, 2, 3, 5, 8, __",
       "tipo": "opciones",
-      "opciones": ["Inminente", "Imnenso", "Inmerso", "Inmóvil"],
-      "respuestas_correctas": ["Imnenso"]
+      "opciones": ["10", "11", "12", "13"],
+      "respuestas_correctas": ["13"]
     },
     {
       "id": 29,
-      "pregunta": "¿Cuál es el antónimo de 'valiente'?",
+      "pregunta": "Si un artículo cuesta 150 € y se aplica un descuento del 10%, ¿cuál es su precio final?",
       "tipo": "opciones",
-      "opciones": ["Cobarde", "Intrépido", "Decidido", "Fuerte"],
-      "respuestas_correctas": ["Cobarde"]
+      "opciones": ["135 €", "140 €", "145 €", "130 €"],
+      "respuestas_correctas": ["135 €"]
     },
     {
       "id": 30,
-      "pregunta": "¿Qué palabra completa la frase? 'El médico dio un diagnóstico _____.'",
+      "pregunta": "Resuelve: 200 ÷ 5 + 30 × 2 = ?",
       "tipo": "opciones",
-      "opciones": ["Preciso", "Difuso", "Confuso", "Tardío"],
-      "respuestas_correctas": ["Preciso"]
+      "opciones": ["100", "110", "120", "130"],
+      "respuestas_correctas": ["100"]
     },
     {
       "id": 31,
-      "pregunta": "Selecciona el sinónimo de 'cordial'.",
+      "pregunta": "Encuentra el patrón: 2, 6, 12, 20, __",
       "tipo": "opciones",
-      "opciones": ["Agradable", "Distante", "Frío", "Indiferente"],
-      "respuestas_correctas": ["Agradable"]
+      "opciones": ["30", "28", "26", "32"],
+      "respuestas_correctas": ["30"]
     },
     {
       "id": 32,
-      "pregunta": "Elige el antónimo de 'abundante'.",
+      "pregunta": "Si un préstamo de 1.000 € tiene un interés del 5%, ¿cuánto hay que pagar al final del año?",
       "tipo": "opciones",
-      "opciones": ["Escaso", "Numeroso", "Suficiente", "Excesivo"],
-      "respuestas_correctas": ["Escaso"]
+      "opciones": ["1.050 €", "1.100 €", "1.025 €", "1.075 €"],
+      "respuestas_correctas": ["1.050 €"]
     },
     {
       "id": 33,
-      "pregunta": "¿Qué palabra significa 'mostrar respeto o admiración'?",
+      "pregunta": "Resuelve: (12 + 8) × 3 = ?",
       "tipo": "opciones",
-      "opciones": ["Venerar", "Ofender", "Rechazar", "Ignorar"],
-      "respuestas_correctas": ["Venerar"]
+      "opciones": ["50", "60", "70", "55"],
+      "respuestas_correctas": ["60"]
     },
     {
       "id": 34,
-      "pregunta": "Selecciona el sinónimo de 'incipiente'.",
+      "pregunta": "Encuentra el número que falta: 5, 10, 20, 40, __",
       "tipo": "opciones",
-      "opciones": ["Iniciado", "Desarrollado", "Finalizado", "Antiguo"],
-      "respuestas_correctas": ["Iniciado"]
+      "opciones": ["50", "60", "70", "80"],
+      "respuestas_correctas": ["80"]
     },
     {
       "id": 35,
-      "pregunta": "¿Cuál es el antónimo de 'tranquilo'?",
+      "pregunta": "Si 8 kg de arroz cuestan 24 €, ¿cuánto cuesta 5 kg?",
       "tipo": "opciones",
-      "opciones": ["Sereno", "Agitado", "Calmado", "Apacible"],
-      "respuestas_correctas": ["Agitado"]
+      "opciones": ["14 €", "15 €", "16 €", "18 €"],
+      "respuestas_correctas": ["15 €"]
     },
     {
       "id": 36,
-      "pregunta": "¿Qué palabra es sinónima de 'coherente'?",
+      "pregunta": "Resuelve: 15 + 3 × 4 - 6 = ?",
       "tipo": "opciones",
-      "opciones": ["Lógico", "Inconexo", "Errático", "Incierto"],
-      "respuestas_correctas": ["Lógico"]
+      "opciones": ["21", "15", "18", "12"],
+      "respuestas_correctas": ["21"]
     },
     {
       "id": 37,
-      "pregunta": "Completa la analogía: 'Sol' es a 'día' como 'luna' es a...",
+      "pregunta": "¿Cuál es el número siguiente en la serie: 1, 4, 9, 16, __",
       "tipo": "opciones",
-      "opciones": ["Luz", "Noche", "Brillo", "Sombras"],
-      "respuestas_correctas": ["Noche"]
+      "opciones": ["20", "25", "24", "30"],
+      "respuestas_correctas": ["25"]
     },
     {
       "id": 38,
-      "pregunta": "Selecciona el antónimo de 'feliz'.",
+      "pregunta": "Si 5 kg de manzanas cuestan 12,50 €, ¿cuánto cuestan 2 kg?",
       "tipo": "opciones",
-      "opciones": ["Triste", "Contento", "Satisfecho", "Animado"],
-      "respuestas_correctas": ["Triste"]
+      "opciones": ["4,50 €", "5 €", "5,50 €", "6 €"],
+      "respuestas_correctas": ["5 €"]
     },
     {
       "id": 39,
-      "pregunta": "Elige el sinónimo de 'comprensible'.",
+      "pregunta": "Resuelve: 9 × 6 ÷ 3 = ?",
       "tipo": "opciones",
-      "opciones": ["Claro", "Oscuro", "Difícil", "Enigmático"],
-      "respuestas_correctas": ["Claro"]
+      "opciones": ["14", "16", "18", "20"],
+      "respuestas_correctas": ["18"]
     },
     {
       "id": 40,
-      "pregunta": "¿Qué palabra está mal escrita?",
+      "pregunta": "Encuentra el patrón: 2, 5, 10, 17, __",
       "tipo": "opciones",
-      "opciones": ["Beneplácito", "Beneficio", "Veneficio", "Benefactor"],
-      "respuestas_correctas": ["Veneficio"]
+      "opciones": ["24", "26", "28", "30"],
+      "respuestas_correctas": ["26"]
     },
     {
       "id": 41,
-      "pregunta": "¿Cuál es el sinónimo de 'prudente'?",
+      "pregunta": "Si un coche consume 8 litros cada 100 km, ¿cuánto gastará en 250 km?",
       "tipo": "opciones",
-      "opciones": ["Cauto", "Atrevido", "Impulsivo", "Descuidado"],
-      "respuestas_correctas": ["Cauto"]
+      "opciones": ["18 L", "20 L", "22 L", "25 L"],
+      "respuestas_correctas": ["20 L"]
     },
     {
       "id": 42,
-      "pregunta": "Selecciona el antónimo de 'temprano'.",
+      "pregunta": "Resuelve: 7² + 2² = ?",
       "tipo": "opciones",
-      "opciones": ["Pronto", "Tardío", "Rápido", "Ligero"],
-      "respuestas_correctas": ["Tardío"]
+      "opciones": ["53", "49", "51", "52"],
+      "respuestas_correctas": ["53"]
     },
     {
       "id": 43,
-      "pregunta": "Completa la analogía: 'Hambre' es a 'comer' como 'sed' es a...",
+      "pregunta": "Si un número aumentado en 40% da 70, ¿cuál es el número original?",
       "tipo": "opciones",
-      "opciones": ["Agua", "Beber", "Líquido", "Refresco"],
-      "respuestas_correctas": ["Beber"]
+      "opciones": ["50", "60", "55", "48"],
+      "respuestas_correctas": ["50"]
     },
     {
       "id": 44,
-      "pregunta": "Elige el sinónimo de 'concluir'.",
+      "pregunta": "Resuelve: 120 ÷ 4 + 15 = ?",
       "tipo": "opciones",
-      "opciones": ["Terminar", "Comenzar", "Proseguir", "Iniciar"],
-      "respuestas_correctas": ["Terminar"]
+      "opciones": ["45", "40", "35", "50"],
+      "respuestas_correctas": ["45"]
     },
     {
       "id": 45,
-      "pregunta": "Selecciona el antónimo de 'oscuro'.",
+      "pregunta": "Encuentra el número que falta: 1, 8, 27, __, 125",
       "tipo": "opciones",
-      "opciones": ["Brillante", "Sombrío", "Tenue", "Apagado"],
-      "respuestas_correctas": ["Brillante"]
+      "opciones": ["45", "64", "81", "100"],
+      "respuestas_correctas": ["64"]
     },
     {
       "id": 46,
-      "pregunta": "¿Qué palabra está relacionada con 'música'?",
+      "pregunta": "Resuelve: 50 × 2 ÷ 5 + 10 = ?",
       "tipo": "opciones",
-      "opciones": ["Melodía", "Cocina", "Arquitectura", "Deporte"],
-      "respuestas_correctas": ["Melodía"]
+      "opciones": ["20", "25", "30", "22"],
+      "respuestas_correctas": ["30"]
     },
     {
       "id": 47,
-      "pregunta": "¿Cuál es el sinónimo de 'eficiente'?",
+      "pregunta": "Si un número es divisible por 2, 3 y 5, ¿también es divisible por?",
       "tipo": "opciones",
-      "opciones": ["Productivo", "Lento", "Deficiente", "Tardío"],
-      "respuestas_correctas": ["Productivo"]
+      "opciones": ["10", "15", "30", "20"],
+      "respuestas_correctas": ["30"]
     },
     {
       "id": 48,
-      "pregunta": "Selecciona el antónimo de 'sabio'.",
+      "pregunta": "Resuelve: 6³ ÷ 2² = ?",
       "tipo": "opciones",
-      "opciones": ["Ignorante", "Inteligente", "Perspicaz", "Docto"],
-      "respuestas_correctas": ["Ignorante"]
+      "opciones": ["27", "54", "48", "36"],
+      "respuestas_correctas": ["27"]
     },
     {
       "id": 49,
-      "pregunta": "Elige el sinónimo de 'adversidad'.",
+      "pregunta": "Encuentra el patrón: 3, 6, 12, 24, __",
       "tipo": "opciones",
-      "opciones": ["Dificultad", "Ventaja", "Oportunidad", "Éxito"],
-      "respuestas_correctas": ["Dificultad"]
+      "opciones": ["36", "48", "60", "72"],
+      "respuestas_correctas": ["48"]
     },
     {
       "id": 50,
-      "pregunta": "¿Qué palabra completa la analogía? 'Maestro' es a 'enseñar' como 'alumno' es a...",
+      "pregunta": "Si 9 trabajadores completan un trabajo en 12 días, ¿cuántos días necesitarán 6 trabajadores?",
       "tipo": "opciones",
-      "opciones": ["Aprender", "Hablar", "Escribir", "Dirigir"],
-      "respuestas_correctas": ["Aprender"]
+      "opciones": ["16", "18", "20", "22"],
+      "respuestas_correctas": ["18"]
     }
   ]
 }
