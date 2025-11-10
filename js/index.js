@@ -12,6 +12,9 @@ const startBtn = document.getElementById('start-btn');
 // los archivos JSON disponibles
 const ejerciciosDisponibles = [
     'psicotecnicos-aptitud-verbal.json',
+    'psicotecnicos-aptitud-numerica.json',
+    'psicotecnicos-aptitud-abstracto.json',
+    'psicotecnicos-aptitud-espacial.json',
     'matematicas-fracciones-equivalentes.json',
     'matematicas-ordenacion-fracciones.json',
     'matematicas-fracciones-generatrices.json',
