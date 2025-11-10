@@ -11,6 +11,7 @@ const startBtn = document.getElementById('start-btn');
 // Como estamos usando JavaScript vanilla en el navegador, definimos manualmente
 // los archivos JSON disponibles
 const ejerciciosDisponibles = [
+    'psicotecnicos-aptitud-verbal.json',
     'matematicas-fracciones-equivalentes.json',
     'matematicas-ordenacion-fracciones.json',
     'matematicas-fracciones-generatrices.json',
