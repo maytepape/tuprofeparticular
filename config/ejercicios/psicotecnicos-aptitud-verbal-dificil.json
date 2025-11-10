@@ -1,0 +1,356 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Selecciona el sinónimo más preciso de 'inconmensurable'.",
+      "tipo": "opciones",
+      "opciones": ["Incalculable", "Medible", "Pequeño", "Transitorio"],
+      "respuestas_correctas": ["Incalculable"]
+    },
+    {
+      "id": 2,
+      "pregunta": "Encuentra la palabra que completa la analogía: Acritud es a amabilidad como ferocidad es a __.",
+      "tipo": "opciones",
+      "opciones": ["Ternura", "Brutalidad", "Valentía", "Impulsividad"],
+      "respuestas_correctas": ["Ternura"]
+    },
+    {
+      "id": 3,
+      "pregunta": "¿Cuál de las siguientes palabras es un antónimo de 'parsimonia'?",
+      "tipo": "opciones",
+      "opciones": ["Prudencia", "Exuberancia", "Economía", "Moderación"],
+      "respuestas_correctas": ["Exuberancia"]
+    },
+    {
+      "id": 4,
+      "pregunta": "Encuentra la palabra que se relaciona mejor con 'obnubilado'.",
+      "tipo": "opciones",
+      "opciones": ["Confundido", "Luminoso", "Reflexivo", "Vigorizado"],
+      "respuestas_correctas": ["Confundido"]
+    },
+    {
+      "id": 5,
+      "pregunta": "Identifica el término que completa la serie semántica: Hierático, solemne, __, ceremonial.",
+      "tipo": "opciones",
+      "opciones": ["Rígido", "Imponente", "Fútil", "Trivial"],
+      "respuestas_correctas": ["Imponente"]
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cuál es la palabra que mejor encaja como analogía inversa? Énfasis es a subestimación como magnitud es a __.",
+      "tipo": "opciones",
+      "opciones": ["Pequeñez", "Importancia", "Extensión", "Relevancia"],
+      "respuestas_correctas": ["Pequeñez"]
+    },
+    {
+      "id": 7,
+      "pregunta": "Selecciona el antónimo de 'insigne'.",
+      "tipo": "opciones",
+      "opciones": ["Notorio", "Mediocre", "Destacado", "Famoso"],
+      "respuestas_correctas": ["Mediocre"]
+    },
+    {
+      "id": 8,
+      "pregunta": "Encuentra la palabra que completa la analogía: Taciturno es a locuaz como parsimonioso es a __.",
+      "tipo": "opciones",
+      "opciones": ["Generoso", "Avaro", "Frugal", "Comedido"],
+      "respuestas_correctas": ["Generoso"]
+    },
+    {
+      "id": 9,
+      "pregunta": "Identifica la palabra que es un hipónimo de 'instrumento'.",
+      "tipo": "opciones",
+      "opciones": ["Violín", "Objeto", "Herramienta", "Música"],
+      "respuestas_correctas": ["Violín"]
+    },
+    {
+      "id": 10,
+      "pregunta": "Selecciona la palabra que completa correctamente la analogía: Hálito es a aliento como ardid es a __.",
+      "tipo": "opciones",
+      "opciones": ["Engaño", "Acto", "Desafío", "Oportunidad"],
+      "respuestas_correctas": ["Engaño"]
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Cuál de las siguientes palabras es un sinónimo de 'obsequioso'?",
+      "tipo": "opciones",
+      "opciones": ["Servil", "Arrogante", "Distante", "Indiferente"],
+      "respuestas_correctas": ["Servil"]
+    },
+    {
+      "id": 12,
+      "pregunta": "Encuentra la palabra que mejor completa esta analogía: Dogmático es a flexible como inflexible es a __.",
+      "tipo": "opciones",
+      "opciones": ["Maleable", "Estricto", "Inconstante", "Tolerante"],
+      "respuestas_correctas": ["Maleable"]
+    },
+    {
+      "id": 13,
+      "pregunta": "Identifica la palabra que encaja en la serie lógica: Cauto, prudente, __, temerario.",
+      "tipo": "opciones",
+      "opciones": ["Oportunista", "Riesgoso", "Meditativo", "Descuidado"],
+      "respuestas_correctas": ["Meditativo"]
+    },
+    {
+      "id": 14,
+      "pregunta": "Selecciona el antónimo más preciso de 'lacónico'.",
+      "tipo": "opciones",
+      "opciones": ["Elocuente", "Sucinto", "Breve", "Escueto"],
+      "respuestas_correctas": ["Elocuente"]
+    },
+    {
+      "id": 15,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Audaz es a temerario como prudente es a __.",
+      "tipo": "opciones",
+      "opciones": ["Cauto", "Osado", "Valiente", "Intrépido"],
+      "respuestas_correctas": ["Cauto"]
+    },
+    {
+      "id": 16,
+      "pregunta": "Selecciona la palabra que es un hipónimo de 'emoción'.",
+      "tipo": "opciones",
+      "opciones": ["Ira", "Sensación", "Cognición", "Actitud"],
+      "respuestas_correctas": ["Ira"]
+    },
+    {
+      "id": 17,
+      "pregunta": "Encuentra el sinónimo más preciso de 'inexorable'.",
+      "tipo": "opciones",
+      "opciones": ["Implacable", "Flexible", "Variable", "Clemente"],
+      "respuestas_correctas": ["Implacable"]
+    },
+    {
+      "id": 18,
+      "pregunta": "Selecciona el antónimo más adecuado de 'magnánimo'.",
+      "tipo": "opciones",
+      "opciones": ["Tacaño", "Generoso", "Altruista", "Elevado"],
+      "respuestas_correctas": ["Tacaño"]
+    },
+    {
+      "id": 19,
+      "pregunta": "Encuentra la palabra que completa esta analogía: Solícito es a indiferente como diligente es a __.",
+      "tipo": "opciones",
+      "opciones": ["Negligente", "Aplicado", "Responsable", "Atento"],
+      "respuestas_correctas": ["Negligente"]
+    },
+    {
+      "id": 20,
+      "pregunta": "Selecciona el sinónimo de 'profuso'.",
+      "tipo": "opciones",
+      "opciones": ["Abundante", "Escaso", "Poco", "Moderado"],
+      "respuestas_correctas": ["Abundante"]
+    },
+    {
+      "id": 21,
+      "pregunta": "Encuentra la palabra que completa la serie semántica: Lúgubre, sombrío, __, brillante.",
+      "tipo": "opciones",
+      "opciones": ["Tenebroso", "Radiante", "Oscuro", "Cándido"],
+      "respuestas_correctas": ["Tenebroso"]
+    },
+    {
+      "id": 22,
+      "pregunta": "Selecciona la palabra que es un hipónimo de 'vehículo'.",
+      "tipo": "opciones",
+      "opciones": ["Bicicleta", "Transporte", "Objeto", "Tráfico"],
+      "respuestas_correctas": ["Bicicleta"]
+    },
+    {
+      "id": 23,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Preciso es a impreciso como conciso es a __.",
+      "tipo": "opciones",
+      "opciones": ["Prolijo", "Sucinto", "Breve", "Exacto"],
+      "respuestas_correctas": ["Prolijo"]
+    },
+    {
+      "id": 24,
+      "pregunta": "Selecciona el antónimo más preciso de 'solícito'.",
+      "tipo": "opciones",
+      "opciones": ["Indiferente", "Atento", "Diligente", "Aplicado"],
+      "respuestas_correctas": ["Indiferente"]
+    },
+    {
+      "id": 25,
+      "pregunta": "Encuentra la palabra que mejor completa la analogía: Erudito es a ignorante como culto es a __.",
+      "tipo": "opciones",
+      "opciones": ["Inculto", "Sabio", "Inteligente", "Ilustrado"],
+      "respuestas_correctas": ["Inculto"]
+    },
+    {
+      "id": 26,
+      "pregunta": "Selecciona el sinónimo más adecuado de 'prolífico'.",
+      "tipo": "opciones",
+      "opciones": ["Fecundo", "Estéril", "Escaso", "Limitado"],
+      "respuestas_correctas": ["Fecundo"]
+    },
+    {
+      "id": 27,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Perspicaz es a sagaz como ingenuo es a __.",
+      "tipo": "opciones",
+      "opciones": ["Astuto", "Inocente", "Listo", "Vigilante"],
+      "respuestas_correctas": ["Inocente"]
+    },
+    {
+      "id": 28,
+      "pregunta": "Selecciona la palabra que es un hipónimo de 'fruta'.",
+      "tipo": "opciones",
+      "opciones": ["Manzana", "Alimento", "Producto", "Verdura"],
+      "respuestas_correctas": ["Manzana"]
+    },
+    {
+      "id": 29,
+      "pregunta": "Encuentra la palabra que completa la analogía: Obsequio es a regalo como castigo es a __.",
+      "tipo": "opciones",
+      "opciones": ["Sanción", "Recompensa", "Alivio", "Honor"],
+      "respuestas_correctas": ["Sanción"]
+    },
+    {
+      "id": 30,
+      "pregunta": "Selecciona el antónimo más preciso de 'abnegado'.",
+      "tipo": "opciones",
+      "opciones": ["Egoísta", "Desinteresado", "Generoso", "Altruista"],
+      "respuestas_correctas": ["Egoísta"]
+    },
+    {
+      "id": 31,
+      "pregunta": "Encuentra la palabra que completa la serie semántica: Insípido, soso, __, sabroso.",
+      "tipo": "opciones",
+      "opciones": ["Desabrido", "Picante", "Dulce", "Intenso"],
+      "respuestas_correctas": ["Desabrido"]
+    },
+    {
+      "id": 32,
+      "pregunta": "Selecciona la palabra que es un hipónimo de 'instrumento musical'.",
+      "tipo": "opciones",
+      "opciones": ["Violín", "Objeto", "Música", "Melodía"],
+      "respuestas_correctas": ["Violín"]
+    },
+    {
+      "id": 33,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Virtuoso es a experto como novato es a __.",
+      "tipo": "opciones",
+      "opciones": ["Inexperto", "Diestro", "Hábil", "Capaz"],
+      "respuestas_correctas": ["Inexperto"]
+    },
+    {
+      "id": 34,
+      "pregunta": "Selecciona el sinónimo más preciso de 'intransigente'.",
+      "tipo": "opciones",
+      "opciones": ["Riguroso", "Flexible", "Tolerante", "Indulgente"],
+      "respuestas_correctas": ["Riguroso"]
+    },
+    {
+      "id": 35,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Loable es a encomiable como deplorable es a __.",
+      "tipo": "opciones",
+      "opciones": ["Merecedor", "Censurable", "Apreciable", "Honorable"],
+      "respuestas_correctas": ["Censurable"]
+    },
+    {
+      "id": 36,
+      "pregunta": "Selecciona el antónimo más preciso de 'inmutable'.",
+      "tipo": "opciones",
+      "opciones": ["Variable", "Fijo", "Permanente", "Constante"],
+      "respuestas_correctas": ["Variable"]
+    },
+    {
+      "id": 37,
+      "pregunta": "Encuentra la palabra que completa la serie semántica: Austero, severo, __, indulgente.",
+      "tipo": "opciones",
+      "opciones": ["Estricto", "Severo", "Rígido", "Benévolo"],
+      "respuestas_correctas": ["Rígido"]
+    },
+    {
+      "id": 38,
+      "pregunta": "Selecciona la palabra que es un hipónimo de 'arte'.",
+      "tipo": "opciones",
+      "opciones": ["Pintura", "Cultura", "Creatividad", "Expresión"],
+      "respuestas_correctas": ["Pintura"]
+    },
+    {
+      "id": 39,
+      "pregunta": "Encuentra la palabra que completa la analogía: Sagaz es a inteligente como torpe es a __.",
+      "tipo": "opciones",
+      "opciones": ["Lento", "Tonto", "Hábil", "Astuto"],
+      "respuestas_correctas": ["Tonto"]
+    },
+    {
+      "id": 40,
+      "pregunta": "Selecciona el sinónimo más adecuado de 'efímero'.",
+      "tipo": "opciones",
+      "opciones": ["Transitorio", "Permanente", "Duradero", "Constante"],
+      "respuestas_correctas": ["Transitorio"]
+    },
+    {
+      "id": 41,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Tenaz es a perseverante como inconstante es a __.",
+      "tipo": "opciones",
+      "opciones": ["Voluble", "Firme", "Constante", "Fijo"],
+      "respuestas_correctas": ["Voluble"]
+    },
+    {
+      "id": 42,
+      "pregunta": "Selecciona el antónimo más preciso de 'virtuoso'.",
+      "tipo": "opciones",
+      "opciones": ["Inexperto", "Hábil", "Capaz", "Diestro"],
+      "respuestas_correctas": ["Inexperto"]
+    },
+    {
+      "id": 43,
+      "pregunta": "Encuentra la palabra que completa la serie semántica: Sutil, delicado, __, grosero.",
+      "tipo": "opciones",
+      "opciones": ["Fino", "Burdo", "Ligero", "Transparente"],
+      "respuestas_correctas": ["Fino"]
+    },
+    {
+      "id": 44,
+      "pregunta": "Selecciona la palabra que es un hipónimo de 'mamífero'.",
+      "tipo": "opciones",
+      "opciones": ["Perro", "Animal", "Vertebrado", "Ser vivo"],
+      "respuestas_correctas": ["Perro"]
+    },
+    {
+      "id": 45,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Fértil es a productivo como árido es a __.",
+      "tipo": "opciones",
+      "opciones": ["Estéril", "Abundante", "Fecundo", "Fructífero"],
+      "respuestas_correctas": ["Estéril"]
+    },
+    {
+      "id": 46,
+      "pregunta": "Selecciona el sinónimo más preciso de 'inefable'.",
+      "tipo": "opciones",
+      "opciones": ["Inexpresable", "Descriptible", "Comunicable", "Contable"],
+      "respuestas_correctas": ["Inexpresable"]
+    },
+    {
+      "id": 47,
+      "pregunta": "Encuentra la palabra que completa correctamente la analogía: Sincero es a honesto como hipócrita es a __.",
+      "tipo": "opciones",
+      "opciones": ["Falso", "Veraz", "Leal", "Justo"],
+      "respuestas_correctas": ["Falso"]
+    },
+    {
+      "id": 48,
+      "pregunta": "Selecciona el antónimo más preciso de 'conciso'.",
+      "tipo": "opciones",
+      "opciones": ["Prolijo", "Breve", "Sucinto", "Escueto"],
+      "respuestas_correctas": ["Prolijo"]
+    },
+    {
+      "id": 49,
+      "pregunta": "Encuentra la palabra que completa la serie semántica: Glacial, frío, __, cálido.",
+      "tipo": "opciones",
+      "opciones": ["Helado", "Templado", "Ártico", "Glorioso"],
+      "respuestas_correctas": ["Helado"]
+    },
+    {
+      "id": 50,
+      "pregunta": "Selecciona la palabra que es un hipónimo de 'bebida'.",
+      "tipo": "opciones",
+      "opciones": ["Vino", "Alimento", "Refresco", "Líquido"],
+      "respuestas_correctas": ["Vino"]
+    }
+  ]
+}

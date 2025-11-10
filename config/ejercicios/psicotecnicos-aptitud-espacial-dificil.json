@@ -1,0 +1,356 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Observa la figura y determina cuál de las opciones es la rotación correcta de 90° hacia la derecha.",
+      "tipo": "opciones",
+      "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "respuestas_correctas": ["Opción C"]
+    },
+    {
+      "id": 2,
+      "pregunta": "Si un cubo tiene sus caras numeradas del 1 al 6, ¿qué número estará frente al 1 si el 6 está abajo?",
+      "tipo": "opciones",
+      "opciones": ["2", "3", "4", "5"],
+      "respuestas_correctas": ["5"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: ⬜→⬛→⬜→__",
+      "tipo": "opciones",
+      "opciones": ["⬛", "⬜", "◼️", "◻️"],
+      "respuestas_correctas": ["⬛"]
+    },
+    {
+      "id": 4,
+      "pregunta": "Si un prisma triangular se voltea sobre su base, ¿cuál será la nueva orientación de la cara más larga?",
+      "tipo": "opciones",
+      "opciones": ["Horizontal", "Vertical", "Inclinada", "No cambia"],
+      "respuestas_correctas": ["Vertical"]
+    },
+    {
+      "id": 5,
+      "pregunta": "Identifica la figura que es un reflejo exacto de la original sobre el eje vertical.",
+      "tipo": "opciones",
+      "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "respuestas_correctas": ["Opción B"]
+    },
+    {
+      "id": 6,
+      "pregunta": "Si se despliega un cubo en un plano, ¿qué cara estará opuesta a la numerada con 3?",
+      "tipo": "opciones",
+      "opciones": ["1", "2", "4", "5"],
+      "respuestas_correctas": ["5"]
+    },
+    {
+      "id": 7,
+      "pregunta": "Encuentra la figura que resulta de girar un triángulo equilátero 120° en sentido horario.",
+      "tipo": "opciones",
+      "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "respuestas_correctas": ["Opción D"]
+    },
+    {
+      "id": 8,
+      "pregunta": "Si un cubo se rota 180° alrededor de un eje horizontal que pasa por su centro, ¿qué caras cambiarán de posición?",
+      "tipo": "opciones",
+      "opciones": ["Todas", "Solo opuestas", "Solo adyacentes", "Ninguna"],
+      "respuestas_correctas": ["Todas"]
+    },
+    {
+      "id": 9,
+      "pregunta": "Encuentra la figura que completa la secuencia de plegado: plano→cubo→__",
+      "tipo": "opciones",
+      "opciones": ["Prisma", "Tetraedro", "Cubo invertido", "Cubo reflejado"],
+      "respuestas_correctas": ["Cubo invertido"]
+    },
+    {
+      "id": 10,
+      "pregunta": "Si un cono se corta horizontalmente a la mitad, ¿qué forma adquiere la sección transversal?",
+      "tipo": "opciones",
+      "opciones": ["Círculo", "Triángulo", "Cuadrado", "Trapecio"],
+      "respuestas_correctas": ["Círculo"]
+    },
+    {
+      "id": 11,
+      "pregunta": "Encuentra la figura que corresponde a la proyección lateral de un cilindro inclinado.",
+      "tipo": "opciones",
+      "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "respuestas_correctas": ["Opción C"]
+    },
+    {
+      "id": 12,
+      "pregunta": "Si se realiza un espejo vertical sobre una figura asimétrica, ¿qué característica cambia?",
+      "tipo": "opciones",
+      "opciones": ["Orientación horizontal", "Color", "Tamaño", "Número de lados"],
+      "respuestas_correctas": ["Orientación horizontal"]
+    },
+    {
+      "id": 13,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones de 45°: ◼️→◼️→__",
+      "tipo": "opciones",
+      "opciones": ["◼️ rotada 90°", "◼️ rotada 45°", "◼️ reflejada", "◼️ sin cambio"],
+      "respuestas_correctas": ["◼️ rotada 90°"]
+    },
+    {
+      "id": 14,
+      "pregunta": "Si un cubo se gira 90° sobre el eje Y, ¿qué cara que estaba de frente queda arriba?",
+      "tipo": "opciones",
+      "opciones": ["Cara opuesta", "Cara adyacente", "Cara original", "Ninguna"],
+      "respuestas_correctas": ["Cara adyacente"]
+    },
+    {
+      "id": 15,
+      "pregunta": "Determina cuál de las opciones representa la figura tridimensional formada al girar un triángulo rectángulo 360° alrededor de uno de sus catetos.",
+      "tipo": "opciones",
+      "opciones": ["Cilindro", "Cono", "Prisma", "Esfera"],
+      "respuestas_correctas": ["Cono"]
+    },
+    {
+      "id": 16,
+      "pregunta": "Si un pentágono se rota 72° alrededor de su centro, ¿qué pasa con sus vértices?",
+      "tipo": "opciones",
+      "opciones": ["Se superponen con los originales", "Rotan fuera del plano", "Cambian de color", "Ninguna de las anteriores"],
+      "respuestas_correctas": ["Se superponen con los originales"]
+    },
+    {
+      "id": 17,
+      "pregunta": "Encuentra la figura que corresponde a la proyección superior de un cono colocado sobre un cubo.",
+      "tipo": "opciones",
+      "opciones": ["Círculo sobre cuadrado", "Triángulo sobre cuadrado", "Cuadrado sobre círculo", "Hexágono sobre cuadrado"],
+      "respuestas_correctas": ["Círculo sobre cuadrado"]
+    },
+    {
+      "id": 18,
+      "pregunta": "Si se corta un cubo diagonalmente desde una esquina a la opuesta, ¿qué forma tendrá la sección resultante?",
+      "tipo": "opciones",
+      "opciones": ["Triángulo", "Cuadrado", "Rectángulo", "Trapecio"],
+      "respuestas_correctas": ["Triángulo"]
+    },
+    {
+      "id": 19,
+      "pregunta": "Encuentra la figura que completa la serie: cubo con un vértice sombreado→__",
+      "tipo": "opciones",
+      "opciones": ["Cubo con vértice opuesto sombreado", "Cubo sin sombreado", "Cubo reflejado", "Cubo rotado 90°"],
+      "respuestas_correctas": ["Cubo con vértice opuesto sombreado"]
+    },
+    {
+      "id": 20,
+      "pregunta": "Si una pirámide triangular se refleja sobre un plano horizontal, ¿qué cambia?",
+      "tipo": "opciones",
+      "opciones": ["Orientación vertical", "Número de caras", "Altura", "Base"],
+      "respuestas_correctas": ["Orientación vertical"]
+    },
+    {
+      "id": 21,
+      "pregunta": "Encuentra la figura que resulta de girar un cuadrado 180° alrededor de su diagonal.",
+      "tipo": "opciones",
+      "opciones": ["Cuadrado invertido", "Rectángulo", "Triángulo", "Paralelogramo"],
+      "respuestas_correctas": ["Cuadrado invertido"]
+    },
+    {
+      "id": 22,
+      "pregunta": "Si un cubo tiene las caras numeradas del 1 al 6 y se gira 90° alrededor de un eje que pasa por el centro de la cara 1, ¿qué número estará arriba?",
+      "tipo": "opciones",
+      "opciones": ["2", "3", "4", "5"],
+      "respuestas_correctas": ["2"]
+    },
+    {
+      "id": 23,
+      "pregunta": "Encuentra la figura que completa la secuencia de reflejos sobre el eje horizontal.",
+      "tipo": "opciones",
+      "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "respuestas_correctas": ["Opción D"]
+    },
+    {
+      "id": 24,
+      "pregunta": "Si un cono se corta verticalmente desde el vértice hasta la base, ¿qué forma adquiere la sección transversal?",
+      "tipo": "opciones",
+      "opciones": ["Triángulo", "Rectángulo", "Círculo", "Trapecio"],
+      "respuestas_correctas": ["Triángulo"]
+    },
+    {
+      "id": 25,
+      "pregunta": "Encuentra la figura que representa la proyección lateral de un cilindro inclinado 45°",
+      "tipo": "opciones",
+      "opciones": ["Elipse", "Círculo", "Rectángulo", "Trapecio"],
+      "respuestas_correctas": ["Elipse"]
+    },
+    {
+      "id": 26,
+      "pregunta": "Si un prisma rectangular se rota 90° sobre su eje longitudinal, ¿qué caras cambian de orientación?",
+      "tipo": "opciones",
+      "opciones": ["Solo las opuestas", "Todas las caras", "Solo las adyacentes", "Ninguna"],
+      "respuestas_correctas": ["Todas las caras"]
+    },
+    {
+      "id": 27,
+      "pregunta": "Encuentra la figura que completa la secuencia de rotaciones de un pentágono regular: 0°, 72°, 144°, __",
+      "tipo": "opciones",
+      "opciones": ["216°", "180°", "200°", "250°"],
+      "respuestas_correctas": ["216°"]
+    },
+    {
+      "id": 28,
+      "pregunta": "Si un cubo se voltea sobre la arista que conecta las caras 1 y 2, ¿qué cara quedará arriba?",
+      "tipo": "opciones",
+      "opciones": ["Cara 3", "Cara 4", "Cara 5", "Cara 6"],
+      "respuestas_correctas": ["Cara 3"]
+    },
+    {
+      "id": 29,
+      "pregunta": "Encuentra la proyección superior de un tetraedro colocado sobre una base triangular.",
+      "tipo": "opciones",
+      "opciones": ["Triángulo", "Cuadrado", "Rectángulo", "Círculo"],
+      "respuestas_correctas": ["Triángulo"]
+    },
+    {
+      "id": 30,
+      "pregunta": "Si se refleja un cubo asimétrico sobre el plano horizontal y luego sobre el vertical, ¿qué cambia?",
+      "tipo": "opciones",
+      "opciones": ["Orientación y posición", "Solo posición", "Solo orientación", "Nada"],
+      "respuestas_correctas": ["Orientación y posición"]
+    },
+    {
+      "id": 31,
+      "pregunta": "Encuentra la figura que representa un prisma triangular visto desde un ángulo isométrico.",
+      "tipo": "opciones",
+      "opciones": ["Opción A", "Opción B", "Opción C", "Opción D"],
+      "respuestas_correctas": ["Opción B"]
+    },
+    {
+      "id": 32,
+      "pregunta": "Si un cubo tiene una esquina sombreada y se gira 180° sobre el eje que pasa por el centro de caras opuestas, ¿qué esquina estará sombreada?",
+      "tipo": "opciones",
+      "opciones": ["La opuesta", "La adyacente", "La misma", "Dos esquinas"],
+      "respuestas_correctas": ["La opuesta"]
+    },
+    {
+      "id": 33,
+      "pregunta": "Encuentra la figura que completa la secuencia de figuras tridimensionales plegadas desde un plano.",
+      "tipo": "opciones",
+      "opciones": ["Cubo", "Prisma triangular", "Cilindro", "Cono"],
+      "respuestas_correctas": ["Cubo"]
+    },
+    {
+      "id": 34,
+      "pregunta": "Si un cono se inclina 45° y se proyecta lateralmente, ¿qué forma se obtiene?",
+      "tipo": "opciones",
+      "opciones": ["Triángulo", "Rectángulo", "Elipse", "Trapecio"],
+      "respuestas_correctas": ["Elipse"]
+    },
+    {
+      "id": 35,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones de un rectángulo 90° hacia la derecha: ⬛→⬛→__",
+      "tipo": "opciones",
+      "opciones": ["⬛ rotado 180°", "⬛ rotado 270°", "⬛ reflejado", "⬛ sin cambio"],
+      "respuestas_correctas": ["⬛ rotado 180°"]
+    },
+    {
+      "id": 36,
+      "pregunta": "Si se corta un cubo desde el vértice superior hasta el vértice opuesto de la base, ¿qué sección se obtiene?",
+      "tipo": "opciones",
+      "opciones": ["Triángulo", "Cuadrado", "Rectángulo", "Trapecio"],
+      "respuestas_correctas": ["Rectángulo"]
+    },
+    {
+      "id": 37,
+      "pregunta": "Encuentra la proyección lateral de un prisma rectangular inclinado sobre una de sus aristas.",
+      "tipo": "opciones",
+      "opciones": ["Rectángulo inclinado", "Cuadrado", "Trapecio", "Triángulo"],
+      "respuestas_correctas": ["Trapecio"]
+    },
+    {
+      "id": 38,
+      "pregunta": "Si un cubo tiene caras numeradas y se rota 90° sobre el eje X, ¿qué cara que estaba abajo estará frente?",
+      "tipo": "opciones",
+      "opciones": ["Cara opuesta", "Cara adyacente", "Cara original", "Ninguna"],
+      "respuestas_correctas": ["Cara adyacente"]
+    },
+    {
+      "id": 39,
+      "pregunta": "Encuentra la figura que resulta de reflejar un prisma triangular sobre el eje horizontal y luego sobre el vertical.",
+      "tipo": "opciones",
+      "opciones": ["Prisma invertido", "Prisma igual", "Prisma rotado 90°", "Prisma eliminado"],
+      "respuestas_correctas": ["Prisma invertido"]
+    },
+    {
+      "id": 40,
+      "pregunta": "Si se gira un tetraedro 120° alrededor de un eje que pasa por un vértice y el centro opuesto, ¿qué ocurre con sus caras?",
+      "tipo": "opciones",
+      "opciones": ["Rotan manteniendo orientación", "Se reflejan", "No cambian", "Se deforman"],
+      "respuestas_correctas": ["Rotan manteniendo orientación"]
+    },
+    {
+      "id": 41,
+      "pregunta": "Encuentra la figura que representa la sección transversal de un cilindro cortado en ángulo oblicuo.",
+      "tipo": "opciones",
+      "opciones": ["Elipse", "Círculo", "Rectángulo", "Trapecio"],
+      "respuestas_correctas": ["Elipse"]
+    },
+    {
+      "id": 42,
+      "pregunta": "Si un cubo tiene un vértice marcado y se gira 90° sobre un eje vertical, ¿qué vértice se marca?",
+      "tipo": "opciones",
+      "opciones": ["Vértice original", "Vértice opuesto", "Vértice adyacente", "Dos vértices"],
+      "respuestas_correctas": ["Vértice adyacente"]
+    },
+    {
+      "id": 43,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones de un triángulo 60°: △→△→__",
+      "tipo": "opciones",
+      "opciones": ["△ rotado 120°", "△ reflejado", "△ rotado 180°", "△ sin cambio"],
+      "respuestas_correctas": ["△ rotado 120°"]
+    },
+    {
+      "id": 44,
+      "pregunta": "Si un cubo se refleja sobre el plano diagonal, ¿qué cambia?",
+      "tipo": "opciones",
+      "opciones": ["Solo orientación", "Solo posición", "Orientación y posición", "Nada"],
+      "respuestas_correctas": ["Orientación y posición"]
+    },
+    {
+      "id": 45,
+      "pregunta": "Encuentra la figura que representa la proyección superior de un cono sobre un cubo colocado horizontalmente.",
+      "tipo": "opciones",
+      "opciones": ["Círculo sobre cuadrado", "Triángulo sobre cuadrado", "Rectángulo sobre cuadrado", "Trapecio sobre cuadrado"],
+      "respuestas_correctas": ["Círculo sobre cuadrado"]
+    },
+    {
+      "id": 46,
+      "pregunta": "Si un prisma triangular se rota 180° sobre su eje longitudinal, ¿qué caras cambian?",
+      "tipo": "opciones",
+      "opciones": ["Todas", "Solo opuestas", "Solo adyacentes", "Ninguna"],
+      "respuestas_correctas": ["Todas"]
+    },
+    {
+      "id": 47,
+      "pregunta": "Encuentra la figura que completa la secuencia: tetraedro→tetraedro reflejado→__",
+      "tipo": "opciones",
+      "opciones": ["Tetraedro rotado", "Tetraedro invertido", "Cubo", "Cilindro"],
+      "respuestas_correctas": ["Tetraedro rotado"]
+    },
+    {
+      "id": 48,
+      "pregunta": "Si un cubo se gira 90° sobre el eje que conecta el centro de la cara 1 con el opuesto, ¿qué cara queda frente?",
+      "tipo": "opciones",
+      "opciones": ["Cara opuesta", "Cara adyacente", "Cara original", "Ninguna"],
+      "respuestas_correctas": ["Cara adyacente"]
+    },
+    {
+      "id": 49,
+      "pregunta": "Encuentra la proyección lateral de un cono inclinado a 30° sobre su eje vertical.",
+      "tipo": "opciones",
+      "opciones": ["Elipse", "Círculo", "Triángulo", "Trapecio"],
+      "respuestas_correctas": ["Elipse"]
+    },
+    {
+      "id": 50,
+      "pregunta": "Si un cubo tiene una cara sombreada y se rota 270° sobre el eje Y, ¿qué cara queda sombreada?",
+      "tipo": "opciones",
+      "opciones": ["Cara opuesta", "Cara adyacente", "Cara original", "Dos caras"],
+      "respuestas_correctas": ["Cara adyacente"]
+    }
+  ]
+}

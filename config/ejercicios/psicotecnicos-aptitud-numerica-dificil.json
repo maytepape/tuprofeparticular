@@ -1,0 +1,356 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Encuentra el número que continúa la serie: 3, 9, 27, 81, __",
+      "tipo": "opciones",
+      "opciones": ["162", "243", "324", "405"],
+      "respuestas_correctas": ["243"]
+    },
+    {
+      "id": 2,
+      "pregunta": "Si 5x + 3 = 23, ¿cuál es el valor de x?",
+      "tipo": "opciones",
+      "opciones": ["3", "4", "5", "6"],
+      "respuestas_correctas": ["4"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Encuentra el número que completa la serie: 2, 5, 10, 17, 26, __",
+      "tipo": "opciones",
+      "opciones": ["35", "37", "38", "39"],
+      "respuestas_correctas": ["37"]
+    },
+    {
+      "id": 4,
+      "pregunta": "Si un producto cuesta 150€ y se aplica un descuento del 15%, ¿cuál es su precio final?",
+      "tipo": "opciones",
+      "opciones": ["127,5€", "130€", "135€", "120€"],
+      "respuestas_correctas": ["127,5€"]
+    },
+    {
+      "id": 5,
+      "pregunta": "Encuentra el valor de x en la ecuación: 2x^2 - 8x + 6 = 0",
+      "tipo": "opciones",
+      "opciones": ["1 y 3", "2 y 3", "1 y 2", "0 y 3"],
+      "respuestas_correctas": ["1 y 3"]
+    },
+    {
+      "id": 6,
+      "pregunta": "Si la suma de dos números es 15 y su producto es 50, ¿cuáles son los números?",
+      "tipo": "opciones",
+      "opciones": ["5 y 10", "2 y 25", "5 y 12", "10 y 5"],
+      "respuestas_correctas": ["5 y 10"]
+    },
+    {
+      "id": 7,
+      "pregunta": "Encuentra el número que continúa la serie: 1, 1, 2, 6, 24, __",
+      "tipo": "opciones",
+      "opciones": ["120", "1200", "36", "48"],
+      "respuestas_correctas": ["120"]
+    },
+    {
+      "id": 8,
+      "pregunta": "Si 7/14 + 3/7 = ?",
+      "tipo": "opciones",
+      "opciones": ["1", "3/2", "5/7", "2"],
+      "respuestas_correctas": ["1"]
+    },
+    {
+      "id": 9,
+      "pregunta": "Encuentra el valor de x en: 3(x-2) + 4 = 19",
+      "tipo": "opciones",
+      "opciones": ["5", "6", "7", "4"],
+      "respuestas_correctas": ["5"]
+    },
+    {
+      "id": 10,
+      "pregunta": "La media de cinco números es 12. Si cuatro de ellos son 10, 15, 8 y 14, ¿cuál es el quinto número?",
+      "tipo": "opciones",
+      "opciones": ["11", "12", "13", "14"],
+      "respuestas_correctas": ["11"]
+    },
+    {
+      "id": 11,
+      "pregunta": "Encuentra el número que continúa la serie: 2, 3, 5, 8, 12, 17, __",
+      "tipo": "opciones",
+      "opciones": ["23", "24", "25", "26"],
+      "respuestas_correctas": ["23"]
+    },
+    {
+      "id": 12,
+      "pregunta": "Si el 40% de un número es 120, ¿cuál es el número?",
+      "tipo": "opciones",
+      "opciones": ["280", "300", "320", "350"],
+      "respuestas_correctas": ["300"]
+    },
+    {
+      "id": 13,
+      "pregunta": "Encuentra el valor de x: 5x - 7 = 3x + 9",
+      "tipo": "opciones",
+      "opciones": ["6", "7", "8", "5"],
+      "respuestas_correctas": ["8"]
+    },
+    {
+      "id": 14,
+      "pregunta": "Si un tren recorre 180 km en 2 horas y media, ¿cuál es su velocidad media en km/h?",
+      "tipo": "opciones",
+      "opciones": ["70", "72", "75", "80"],
+      "respuestas_correctas": ["72"]
+    },
+    {
+      "id": 15,
+      "pregunta": "Encuentra el número que completa la serie: 4, 9, 19, 39, __",
+      "tipo": "opciones",
+      "opciones": ["79", "78", "77", "75"],
+      "respuestas_correctas": ["79"]
+    },
+    {
+      "id": 16,
+      "pregunta": "Si (x+2)(x-3)=0, ¿cuáles son los valores de x?",
+      "tipo": "opciones",
+      "opciones": ["-2 y 3", "2 y -3", "3 y -2", "0 y 5"],
+      "respuestas_correctas": ["-2 y 3"]
+    },
+    {
+      "id": 17,
+      "pregunta": "Encuentra la suma de los números primos entre 10 y 20.",
+      "tipo": "opciones",
+      "opciones": ["60", "64", "72", "58"],
+      "respuestas_correctas": ["60"]
+    },
+    {
+      "id": 18,
+      "pregunta": "Si el doble de un número menos 5 es 19, ¿cuál es el número?",
+      "tipo": "opciones",
+      "opciones": ["10", "11", "12", "13"],
+      "respuestas_correctas": ["12"]
+    },
+    {
+      "id": 19,
+      "pregunta": "Encuentra el valor de x en: 2x/3 = 8",
+      "tipo": "opciones",
+      "opciones": ["10", "11", "12", "13"],
+      "respuestas_correctas": ["12"]
+    },
+    {
+      "id": 20,
+      "pregunta": "La media de los números 8, 12, 15, x y 10 es 12. ¿Cuál es el valor de x?",
+      "tipo": "opciones",
+      "opciones": ["13", "14", "15", "16"],
+      "respuestas_correctas": ["14"]
+    },
+    {
+      "id": 21,
+      "pregunta": "Encuentra el número que continúa la serie: 1, 4, 9, 16, 25, __",
+      "tipo": "opciones",
+      "opciones": ["30", "36", "35", "32"],
+      "respuestas_correctas": ["36"]
+    },
+    {
+      "id": 22,
+      "pregunta": "Si 3/4 de un número es 18, ¿cuál es el número?",
+      "tipo": "opciones",
+      "opciones": ["24", "22", "20", "25"],
+      "respuestas_correctas": ["24"]
+    },
+    {
+      "id": 23,
+      "pregunta": "Encuentra el valor de x: 7x + 2 = 37",
+      "tipo": "opciones",
+      "opciones": ["5", "6", "7", "8"],
+      "respuestas_correctas": ["5"]
+    },
+    {
+      "id": 24,
+      "pregunta": "Un artículo cuesta 200€. Si su precio aumenta un 20%, ¿cuál será el precio final?",
+      "tipo": "opciones",
+      "opciones": ["220€", "240€", "250€", "260€"],
+      "respuestas_correctas": ["240€"]
+    },
+    {
+      "id": 25,
+      "pregunta": "Encuentra el número que completa la serie: 2, 6, 12, 20, 30, __",
+      "tipo": "opciones",
+      "opciones": ["40", "42", "44", "45"],
+      "respuestas_correctas": ["42"]
+    },
+    {
+      "id": 26,
+      "pregunta": "Si x/5 + 3 = 10, ¿cuál es x?",
+      "tipo": "opciones",
+      "opciones": ["25", "30", "35", "40"],
+      "respuestas_correctas": ["35"]
+    },
+    {
+      "id": 27,
+      "pregunta": "Encuentra la suma de los números pares entre 1 y 20.",
+      "tipo": "opciones",
+      "opciones": ["100", "110", "120", "90"],
+      "respuestas_correctas": ["110"]
+    },
+    {
+      "id": 28,
+      "pregunta": "Encuentra el número que continúa la serie: 5, 11, 23, 47, __",
+      "tipo": "opciones",
+      "opciones": ["91", "95", "99", "103"],
+      "respuestas_correctas": ["95"]
+    },
+    {
+      "id": 29,
+      "pregunta": "Si 15% de un número es 45, ¿cuál es el número?",
+      "tipo": "opciones",
+      "opciones": ["250", "300", "350", "280"],
+      "respuestas_correctas": ["300"]
+    },
+    {
+      "id": 30,
+      "pregunta": "Encuentra el valor de x: 4x - 7 = 21",
+      "tipo": "opciones",
+      "opciones": ["6", "7", "8", "9"],
+      "respuestas_correctas": ["7"]
+    },
+    {
+      "id": 31,
+      "pregunta": "Encuentra el número que continúa la serie: 1, 2, 6, 24, 120, __",
+      "tipo": "opciones",
+      "opciones": ["600", "720", "7200", "72000"],
+      "respuestas_correctas": ["720"]
+    },
+    {
+      "id": 32,
+      "pregunta": "Si 3x + 2 = 17, ¿cuál es x?",
+      "tipo": "opciones",
+      "opciones": ["4", "5", "6", "7"],
+      "respuestas_correctas": ["5"]
+    },
+    {
+      "id": 33,
+      "pregunta": "Encuentra el número que completa la serie: 7, 14, 28, 56, __",
+      "tipo": "opciones",
+      "opciones": ["112", "120", "100", "108"],
+      "respuestas_correctas": ["112"]
+    },
+    {
+      "id": 34,
+      "pregunta": "Si un artículo se vende por 180€ con un descuento del 10%, ¿cuál era su precio original?",
+      "tipo": "opciones",
+      "opciones": ["200€", "198€", "190€", "210€"],
+      "respuestas_correctas": ["200€"]
+    },
+    {
+      "id": 35,
+      "pregunta": "Encuentra el valor de x: 6x/2 + 5 = 20",
+      "tipo": "opciones",
+      "opciones": ["4", "5", "6", "7"],
+      "respuestas_correctas": ["5"]
+    },
+    {
+      "id": 36,
+      "pregunta": "Encuentra la media de los números: 8, 12, 15, 20, 25",
+      "tipo": "opciones",
+      "opciones": ["16", "15", "14", "18"],
+      "respuestas_correctas": ["16"]
+    },
+    {
+      "id": 37,
+      "pregunta": "Encuentra el número que continúa la serie: 3, 6, 12, 24, 48, __",
+      "tipo": "opciones",
+      "opciones": ["96", "100", "104", "90"],
+      "respuestas_correctas": ["96"]
+    },
+    {
+      "id": 38,
+      "pregunta": "Si x - 4 = 11, ¿cuál es x?",
+      "tipo": "opciones",
+      "opciones": ["14", "15", "16", "17"],
+      "respuestas_correctas": ["15"]
+    },
+    {
+      "id": 39,
+      "pregunta": "Encuentra el número que completa la serie: 2, 3, 5, 9, 17, __",
+      "tipo": "opciones",
+      "opciones": ["33", "34", "35", "32"],
+      "respuestas_correctas": ["33"]
+    },
+    {
+      "id": 40,
+      "pregunta": "Si 8x = 56, ¿cuál es x?",
+      "tipo": "opciones",
+      "opciones": ["6", "7", "8", "9"],
+      "respuestas_correctas": ["7"]
+    },
+    {
+      "id": 41,
+      "pregunta": "Encuentra el número que continúa la serie: 1, 4, 9, 16, 25, 36, __",
+      "tipo": "opciones",
+      "opciones": ["46", "49", "48", "50"],
+      "respuestas_correctas": ["49"]
+    },
+    {
+      "id": 42,
+      "pregunta": "Si 60% de un número es 72, ¿cuál es el número?",
+      "tipo": "opciones",
+      "opciones": ["100", "110", "120", "130"],
+      "respuestas_correctas": ["120"]
+    },
+    {
+      "id": 43,
+      "pregunta": "Encuentra x: 2x^2 - 10x + 12 = 0",
+      "tipo": "opciones",
+      "opciones": ["2 y 3", "1 y 6", "3 y 4", "2 y 4"],
+      "respuestas_correctas": ["2 y 3"]
+    },
+    {
+      "id": 44,
+      "pregunta": "Encuentra el número que completa la serie: 1, 2, 6, 24, 120, 720, __",
+      "tipo": "opciones",
+      "opciones": ["5040", "6000", "7200", "8000"],
+      "respuestas_correctas": ["5040"]
+    },
+    {
+      "id": 45,
+      "pregunta": "Si 5x - 7 = 3x + 9, ¿cuál es x?",
+      "tipo": "opciones",
+      "opciones": ["5", "7", "8", "6"],
+      "respuestas_correctas": ["8"]
+    },
+    {
+      "id": 46,
+      "pregunta": "Encuentra la suma de los números impares entre 1 y 15.",
+      "tipo": "opciones",
+      "opciones": ["64", "64", "49", "64"],
+      "respuestas_correctas": ["64"]
+    },
+    {
+      "id": 47,
+      "pregunta": "Encuentra el número que continúa la serie: 3, 7, 15, 31, 63, __",
+      "tipo": "opciones",
+      "opciones": ["125", "126", "127", "128"],
+      "respuestas_correctas": ["127"]
+    },
+    {
+      "id": 48,
+      "pregunta": "Si 9x - 5 = 22, ¿cuál es x?",
+      "tipo": "opciones",
+      "opciones": ["2", "3", "4", "5"],
+      "respuestas_correctas": ["3"]
+    },
+    {
+      "id": 49,
+      "pregunta": "Encuentra el número que completa la serie: 2, 3, 5, 8, 13, 21, __",
+      "tipo": "opciones",
+      "opciones": ["33", "34", "35", "36"],
+      "respuestas_correctas": ["34"]
+    },
+    {
+      "id": 50,
+      "pregunta": "Si 7/10 de un número es 28, ¿cuál es el número?",
+      "tipo": "opciones",
+      "opciones": ["38", "40", "42", "45"],
+      "respuestas_correctas": ["40"]
+    }
+  ]
+}

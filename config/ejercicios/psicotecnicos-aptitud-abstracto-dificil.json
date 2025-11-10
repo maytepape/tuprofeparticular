@@ -1,0 +1,356 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Encuentra la figura que completa la serie: ○, △, □, ○, △, __",
+      "tipo": "opciones",
+      "opciones": ["□", "○", "△", "◇"],
+      "respuestas_correctas": ["□"]
+    },
+    {
+      "id": 2,
+      "pregunta": "Si todas las A son B, y algunas B son C, ¿puede alguna A ser C?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Solo algunas veces", "Indeterminado"],
+      "respuestas_correctas": ["Sí"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Encuentra la figura que completa la secuencia de rotaciones: ◼️→◻️→◼️→__",
+      "tipo": "opciones",
+      "opciones": ["◻️", "◼️", "△", "○"],
+      "respuestas_correctas": ["◻️"]
+    },
+    {
+      "id": 4,
+      "pregunta": "Si la palabra 'SOL' se codifica como 'RPM', ¿cómo se codifica 'LUNA'?",
+      "tipo": "opciones",
+      "opciones": ["KTMZ", "KTMB", "KSMB", "KTMC"],
+      "respuestas_correctas": ["KTMB"]
+    },
+    {
+      "id": 5,
+      "pregunta": "Encuentra la figura que no pertenece al grupo: ○, △, □, ◇, ◼️, △",
+      "tipo": "opciones",
+      "opciones": ["○", "□", "◇", "△"],
+      "respuestas_correctas": ["◇"]
+    },
+    {
+      "id": 6,
+      "pregunta": "Si todas las rosas son flores y algunas flores son rojas, ¿son algunas rosas rojas?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "No se puede determinar", "Todas son rojas"],
+      "respuestas_correctas": ["No se puede determinar"]
+    },
+    {
+      "id": 7,
+      "pregunta": "Encuentra la figura que completa la serie de patrones: ◼️, ◼️◼️, ◼️◼️◼️, __",
+      "tipo": "opciones",
+      "opciones": ["◼️◼️◼️◼️", "◼️", "◼️◼️", "◼️◼️◼️"],
+      "respuestas_correctas": ["◼️◼️◼️◼️"]
+    },
+    {
+      "id": 8,
+      "pregunta": "Si 2 = 6, 3 = 12, 4 = 20, ¿cuál es el valor de 5?",
+      "tipo": "opciones",
+      "opciones": ["30", "25", "40", "35"],
+      "respuestas_correctas": ["30"]
+    },
+    {
+      "id": 9,
+      "pregunta": "Encuentra la figura que completa la secuencia: △→□→○→△→__",
+      "tipo": "opciones",
+      "opciones": ["□", "△", "○", "◇"],
+      "respuestas_correctas": ["□"]
+    },
+    {
+      "id": 10,
+      "pregunta": "Si cada letra se sustituye por la siguiente en el alfabeto (A→B, B→C…), ¿qué palabra resulta de 'GATO'?",
+      "tipo": "opciones",
+      "opciones": ["HBUP", "HBUP", "HBUQ", "HBUO"],
+      "respuestas_correctas": ["HBUP"]
+    },
+    {
+      "id": 11,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: ◼️, ◼️ rotada 90°, ◼️ rotada 180°, __",
+      "tipo": "opciones",
+      "opciones": ["◼️ rotada 270°", "◼️ rotada 0°", "◼️ reflejada", "◻️"],
+      "respuestas_correctas": ["◼️ rotada 270°"]
+    },
+    {
+      "id": 12,
+      "pregunta": "Si 1 → 3, 2 → 8, 3 → 15, 4 → __",
+      "tipo": "opciones",
+      "opciones": ["24", "20", "18", "22"],
+      "respuestas_correctas": ["24"]
+    },
+    {
+      "id": 13,
+      "pregunta": "Encuentra la figura que no encaja: ◯, △, ◻️, ◼️, △, ◯",
+      "tipo": "opciones",
+      "opciones": ["△", "◼️", "◯", "◻️"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 14,
+      "pregunta": "Si el código 123 representa ABC, ¿qué representa 345?",
+      "tipo": "opciones",
+      "opciones": ["CDE", "DEF", "BCD", "EFG"],
+      "respuestas_correctas": ["DEF"]
+    },
+    {
+      "id": 15,
+      "pregunta": "Encuentra la figura que completa la serie de patrones de tamaño: ◼️ pequeño, ◼️ mediano, ◼️ grande, __",
+      "tipo": "opciones",
+      "opciones": ["◼️ extra grande", "◼️ pequeño", "◼️ mediano", "△ grande"],
+      "respuestas_correctas": ["◼️ extra grande"]
+    },
+    {
+      "id": 16,
+      "pregunta": "Si 5 → 25, 6 → 36, 7 → __",
+      "tipo": "opciones",
+      "opciones": ["49", "48", "42", "50"],
+      "respuestas_correctas": ["49"]
+    },
+    {
+      "id": 17,
+      "pregunta": "Encuentra la figura que completa la secuencia de rotaciones: ◇, ◇ rotada 90°, ◇ rotada 180°, __",
+      "tipo": "opciones",
+      "opciones": ["◇ rotada 270°", "◇ reflejada", "□", "△"],
+      "respuestas_correctas": ["◇ rotada 270°"]
+    },
+    {
+      "id": 18,
+      "pregunta": "Si todas las C son D, y algunas D son E, ¿puede alguna C ser E?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Indeterminado", "Todas son E"],
+      "respuestas_correctas": ["Indeterminado"]
+    },
+    {
+      "id": 19,
+      "pregunta": "Encuentra la figura que no pertenece: ○, △, □, ◇, ◯, △",
+      "tipo": "opciones",
+      "opciones": ["○", "△", "□", "◇"],
+      "respuestas_correctas": ["◇"]
+    },
+    {
+      "id": 20,
+      "pregunta": "Si 3 → 9, 4 → 16, 5 → __",
+      "tipo": "opciones",
+      "opciones": ["25", "20", "30", "24"],
+      "respuestas_correctas": ["25"]
+    },
+    {
+      "id": 21,
+      "pregunta": "Encuentra la figura que completa la serie de patrones: ◼️, ◻️, ◼️, ◻️, __",
+      "tipo": "opciones",
+      "opciones": ["◼️", "◻️", "△", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 22,
+      "pregunta": "Si A→B, B→C, C→D, ¿qué letra corresponde a D?",
+      "tipo": "opciones",
+      "opciones": ["E", "F", "G", "D"],
+      "respuestas_correctas": ["E"]
+    },
+    {
+      "id": 23,
+      "pregunta": "Encuentra la figura que completa la secuencia de rotaciones: △, △ rotada 60°, △ rotada 120°, __",
+      "tipo": "opciones",
+      "opciones": ["△ rotada 180°", "△ reflejada", "□", "◯"],
+      "respuestas_correctas": ["△ rotada 180°"]
+    },
+    {
+      "id": 24,
+      "pregunta": "Si el patrón numérico es 2, 6, 12, 20, __",
+      "tipo": "opciones",
+      "opciones": ["30", "28", "25", "32"],
+      "respuestas_correctas": ["30"]
+    },
+    {
+      "id": 25,
+      "pregunta": "Encuentra la figura que no encaja en la serie: ○, ○, △, △, □, ◼️, ◻️",
+      "tipo": "opciones",
+      "opciones": ["□", "◻️", "◼️", "△"],
+      "respuestas_correctas": ["◼️"]
+    },
+        {
+      "id": 26,
+      "pregunta": "Si 7 → 56, 8 → 72, 9 → __",
+      "tipo": "opciones",
+      "opciones": ["90", "100", "108", "112"],
+      "respuestas_correctas": ["90"]
+    },
+    {
+      "id": 27,
+      "pregunta": "Encuentra la figura que completa la secuencia: ◻️, ◻️◻️, ◻️◻️◻️, __",
+      "tipo": "opciones",
+      "opciones": ["◻️◻️◻️◻️", "◻️", "◻️◻️", "△"],
+      "respuestas_correctas": ["◻️◻️◻️◻️"]
+    },
+    {
+      "id": 28,
+      "pregunta": "Si todas las X son Y y todas las Y son Z, ¿todas las X son Z?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "A veces", "Indeterminado"],
+      "respuestas_correctas": ["Sí"]
+    },
+    {
+      "id": 29,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: ◇, ◇ rotada 90°, ◇ rotada 180°, __",
+      "tipo": "opciones",
+      "opciones": ["◇ rotada 270°", "□", "△", "◯"],
+      "respuestas_correctas": ["◇ rotada 270°"]
+    },
+    {
+      "id": 30,
+      "pregunta": "Si 2, 6, 12, 20, __, ¿qué número sigue?",
+      "tipo": "opciones",
+      "opciones": ["30", "28", "32", "36"],
+      "respuestas_correctas": ["30"]
+    },
+    {
+      "id": 31,
+      "pregunta": "Encuentra la figura que no encaja: ○, △, □, ◇, ◼️, ○",
+      "tipo": "opciones",
+      "opciones": ["○", "△", "◇", "◼️"],
+      "respuestas_correctas": ["◇"]
+    },
+    {
+      "id": 32,
+      "pregunta": "Si la palabra 'LUNA' se codifica como 'OVPC', ¿cómo se codifica 'SOL'?",
+      "tipo": "opciones",
+      "opciones": ["TQN", "RPM", "SOM", "TOM"],
+      "respuestas_correctas": ["RPM"]
+    },
+    {
+      "id": 33,
+      "pregunta": "Encuentra la figura que completa la secuencia: △, △ rotada 60°, △ rotada 120°, △ rotada 180°, __",
+      "tipo": "opciones",
+      "opciones": ["△ rotada 240°", "△ reflejada", "□", "○"],
+      "respuestas_correctas": ["△ rotada 240°"]
+    },
+    {
+      "id": 34,
+      "pregunta": "Si 5 → 25, 6 → 36, 7 → 49, ¿qué patrón sigue?",
+      "tipo": "opciones",
+      "opciones": ["n²", "n+5", "n×n-1", "n³"],
+      "respuestas_correctas": ["n²"]
+    },
+    {
+      "id": 35,
+      "pregunta": "Encuentra la figura que completa la serie de patrones: ◼️, ◻️, ◼️, ◻️, __",
+      "tipo": "opciones",
+      "opciones": ["◼️", "◻️", "△", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 36,
+      "pregunta": "Si A→B, B→C, C→D, D→__, ¿qué letra sigue?",
+      "tipo": "opciones",
+      "opciones": ["E", "F", "G", "D"],
+      "respuestas_correctas": ["E"]
+    },
+    {
+      "id": 37,
+      "pregunta": "Encuentra la figura que no encaja en: ◯, ◯, △, △, □, ◼️, ◻️",
+      "tipo": "opciones",
+      "opciones": ["□", "◻️", "◼️", "△"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 38,
+      "pregunta": "Si 3 → 9, 4 → 16, 5 → __",
+      "tipo": "opciones",
+      "opciones": ["25", "20", "30", "24"],
+      "respuestas_correctas": ["25"]
+    },
+    {
+      "id": 39,
+      "pregunta": "Encuentra la figura que completa la serie: ○, △, □, ○, △, __",
+      "tipo": "opciones",
+      "opciones": ["□", "○", "△", "◇"],
+      "respuestas_correctas": ["□"]
+    },
+    {
+      "id": 40,
+      "pregunta": "Si todas las M son N y algunas N son O, ¿puede alguna M ser O?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Indeterminado", "Todas son O"],
+      "respuestas_correctas": ["Indeterminado"]
+    },
+    {
+      "id": 41,
+      "pregunta": "Encuentra la figura que completa la secuencia de rotaciones: ◻️, ◻️ rotada 90°, ◻️ rotada 180°, __",
+      "tipo": "opciones",
+      "opciones": ["◻️ rotada 270°", "◻️ reflejada", "△", "○"],
+      "respuestas_correctas": ["◻️ rotada 270°"]
+    },
+    {
+      "id": 42,
+      "pregunta": "Si 1 → 3, 2 → 8, 3 → 15, 4 → __",
+      "tipo": "opciones",
+      "opciones": ["24", "20", "18", "22"],
+      "respuestas_correctas": ["24"]
+    },
+    {
+      "id": 43,
+      "pregunta": "Encuentra la figura que no pertenece: ○, △, □, ◇, ○, △",
+      "tipo": "opciones",
+      "opciones": ["○", "△", "□", "◇"],
+      "respuestas_correctas": ["◇"]
+    },
+    {
+      "id": 44,
+      "pregunta": "Si la palabra 'SOL' se codifica como 'RPM', ¿cómo se codifica 'LUNA'?",
+      "tipo": "opciones",
+      "opciones": ["KTMB", "KTMZ", "KSMB", "KTMC"],
+      "respuestas_correctas": ["KTMB"]
+    },
+    {
+      "id": 45,
+      "pregunta": "Encuentra la figura que completa la secuencia de patrones de tamaño: ◼️ pequeño, ◼️ mediano, ◼️ grande, __",
+      "tipo": "opciones",
+      "opciones": ["◼️ extra grande", "◼️ pequeño", "◼️ mediano", "△ grande"],
+      "respuestas_correctas": ["◼️ extra grande"]
+    },
+    {
+      "id": 46,
+      "pregunta": "Si 5 → 25, 6 → 36, 7 → __",
+      "tipo": "opciones",
+      "opciones": ["49", "48", "42", "50"],
+      "respuestas_correctas": ["49"]
+    },
+    {
+      "id": 47,
+      "pregunta": "Encuentra la figura que completa la secuencia de rotaciones: ◇, ◇ rotada 90°, ◇ rotada 180°, __",
+      "tipo": "opciones",
+      "opciones": ["◇ rotada 270°", "□", "△", "◯"],
+      "respuestas_correctas": ["◇ rotada 270°"]
+    },
+    {
+      "id": 48,
+      "pregunta": "Si todas las C son D, y algunas D son E, ¿puede alguna C ser E?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Indeterminado", "Todas son E"],
+      "respuestas_correctas": ["Indeterminado"]
+    },
+    {
+      "id": 49,
+      "pregunta": "Encuentra la figura que no encaja: ○, ○, △, △, □, ◼️, ◻️",
+      "tipo": "opciones",
+      "opciones": ["□", "◻️", "◼️", "△"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 50,
+      "pregunta": "Si 7 → 56, 8 → 72, 9 → __",
+      "tipo": "opciones",
+      "opciones": ["90", "100", "108", "112"],
+      "respuestas_correctas": ["90"]
+    }
+  ]
+}
