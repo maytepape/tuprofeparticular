@@ -1,0 +1,356 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Selecciona la figura que completa la serie: ◼️, ◻️, ◼️, ◻️, __",
+      "tipo": "opciones",
+      "opciones": ["◼️", "◻️", "△", "●"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 2,
+      "pregunta": "Si giras un cubo 90° hacia la derecha, ¿qué cara queda al frente?",
+      "tipo": "opciones",
+      "opciones": ["Cara superior", "Cara derecha", "Cara trasera", "Cara izquierda"],
+      "respuestas_correctas": ["Cara derecha"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Encuentra la figura que es simétrica respecto a su eje vertical.",
+      "tipo": "opciones",
+      "opciones": ["▶️", "⬛", "△", "↗️"],
+      "respuestas_correctas": ["⬛"]
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Cuál de las siguientes figuras completa correctamente la serie de rotación?",
+      "tipo": "opciones",
+      "opciones": ["🔺", "🔻", "🔺 invertida", "🔷"],
+      "respuestas_correctas": ["🔻"]
+    },
+    {
+      "id": 5,
+      "pregunta": "Identifica la figura que es idéntica a la original pero reflejada horizontalmente.",
+      "tipo": "opciones",
+      "opciones": ["◀️", "▶️", "△", "⬜"],
+      "respuestas_correctas": ["◀️"]
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Qué figura resulta al rotar un triángulo 180°?",
+      "tipo": "opciones",
+      "opciones": ["Misma orientación", "Invertido", "Espejo horizontal", "Espejo vertical"],
+      "respuestas_correctas": ["Invertido"]
+    },
+    {
+      "id": 7,
+      "pregunta": "Encuentra la figura que falta en la serie de tamaños: pequeño, mediano, grande, __",
+      "tipo": "opciones",
+      "opciones": ["Muy grande", "Pequeño", "Mediano", "Extra grande"],
+      "respuestas_correctas": ["Muy grande"]
+    },
+    {
+      "id": 8,
+      "pregunta": "Si una figura está inclinada 90° hacia la izquierda, ¿cómo se verá al girarla 180°?",
+      "tipo": "opciones",
+      "opciones": ["Inclinada a la derecha", "Inclinada a la izquierda", "Vertical", "Horizontal"],
+      "respuestas_correctas": ["Inclinada a la derecha"]
+    },
+    {
+      "id": 9,
+      "pregunta": "Selecciona la figura que NO pertenece al grupo: ⬛, ◼️, △, ◻️",
+      "tipo": "opciones",
+      "opciones": ["△", "⬛", "◼️", "◻️"],
+      "respuestas_correctas": ["△"]
+    },
+    {
+      "id": 10,
+      "pregunta": "¿Cuál de las siguientes figuras tiene simetría rotacional?",
+      "tipo": "opciones",
+      "opciones": ["◼️", "▶️", "🔺", "↗️"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 11,
+      "pregunta": "Si un cubo tiene una cara roja delante y una azul arriba, ¿qué color estará en la parte trasera al girarlo 90° a la derecha?",
+      "tipo": "opciones",
+      "opciones": ["Azul", "Rojo", "Negro", "Verde"],
+      "respuestas_correctas": ["Rojo"]
+    },
+    {
+      "id": 12,
+      "pregunta": "Encuentra la figura que completa la secuencia: ◼️, △, ◼️, △, __",
+      "tipo": "opciones",
+      "opciones": ["◼️", "△", "○", "◻️"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 13,
+      "pregunta": "Selecciona la figura que corresponde a la proyección de un cubo visto desde arriba.",
+      "tipo": "opciones",
+      "opciones": ["⬛", "△", "◼️", "○"],
+      "respuestas_correctas": ["⬛"]
+    },
+    {
+      "id": 14,
+      "pregunta": "Identifica la figura que rota 90° y coincide con la original.",
+      "tipo": "opciones",
+      "opciones": ["◼️", "▶️", "△", "⬛"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 15,
+      "pregunta": "Encuentra la figura que completa el patrón: ◻️, ◻️ con línea, ◻️, __",
+      "tipo": "opciones",
+      "opciones": ["◻️ con línea", "◼️", "△", "○"],
+      "respuestas_correctas": ["◻️ con línea"]
+    },
+    {
+      "id": 16,
+      "pregunta": "Si un prisma triangular se gira 180°, ¿cómo se verá la base triangular?",
+      "tipo": "opciones",
+      "opciones": ["Invertida", "Igual", "Rotada lateral", "No visible"],
+      "respuestas_correctas": ["Invertida"]
+    },
+    {
+      "id": 17,
+      "pregunta": "¿Cuál de estas figuras es una simetría de la figura original?",
+      "tipo": "opciones",
+      "opciones": ["△ invertido", "△ rotado 30°", "◼️", "○"],
+      "respuestas_correctas": ["△ invertido"]
+    },
+    {
+      "id": 18,
+      "pregunta": "Encuentra la figura que completa la serie de tamaños: grande, mediano, pequeño, __",
+      "tipo": "opciones",
+      "opciones": ["Muy pequeño", "Mediano", "Grande", "Extra grande"],
+      "respuestas_correctas": ["Muy pequeño"]
+    },
+    {
+      "id": 19,
+      "pregunta": "Selecciona la figura que representa una proyección lateral de un cubo.",
+      "tipo": "opciones",
+      "opciones": ["◼️", "⬛", "△", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Qué figura es espejo horizontal de ▶️?",
+      "tipo": "opciones",
+      "opciones": ["◀️", "△", "◼️", "⬛"],
+      "respuestas_correctas": ["◀️"]
+    },
+    {
+      "id": 21,
+      "pregunta": "Si rotamos una figura 270°, ¿cuál será su posición final?",
+      "tipo": "opciones",
+      "opciones": ["90° derecha", "90° izquierda", "180° invertida", "Original"],
+      "respuestas_correctas": ["90° izquierda"]
+    },
+    {
+      "id": 22,
+      "pregunta": "Encuentra la figura que no pertenece al grupo: △, ◼️, ◻️, ◇",
+      "tipo": "opciones",
+      "opciones": ["◼️", "◇", "△", "◻️"],
+      "respuestas_correctas": ["◇"]
+    },
+    {
+      "id": 23,
+      "pregunta": "Identifica la figura que es idéntica a la original tras rotación de 180°.",
+      "tipo": "opciones",
+      "opciones": ["◼️", "△", "▶️", "◻️"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 24,
+      "pregunta": "Selecciona la figura que completa la serie de patrones: ●, ◯, ●, ◯, __",
+      "tipo": "opciones",
+      "opciones": ["●", "◯", "△", "◻️"],
+      "respuestas_correctas": ["●"]
+    },
+    {
+      "id": 25,
+      "pregunta": "¿Cuál de las siguientes figuras tiene simetría vertical?",
+      "tipo": "opciones",
+      "opciones": ["▶️", "⬛", "△", "↗️"],
+      "respuestas_correctas": ["⬛"]
+    },
+    {
+      "id": 26,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: △, △ rotado 90°, △ rotado 180°, __",
+      "tipo": "opciones",
+      "opciones": ["△ rotado 270°", "△ invertido", "◼️", "○"],
+      "respuestas_correctas": ["△ rotado 270°"]
+    },
+    {
+      "id": 27,
+      "pregunta": "Si un prisma rectangular se gira 90° hacia arriba, ¿qué cara será visible?",
+      "tipo": "opciones",
+      "opciones": ["Cara lateral", "Cara inferior", "Cara superior", "Cara trasera"],
+      "respuestas_correctas": ["Cara superior"]
+    },
+    {
+      "id": 28,
+      "pregunta": "Selecciona la figura que NO pertenece a este grupo: ◼️, ◻️, △, ◼️ invertida",
+      "tipo": "opciones",
+      "opciones": ["△", "◼️", "◻️", "◼️ invertida"],
+      "respuestas_correctas": ["△"]
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Qué figura resulta al reflejar horizontalmente un triángulo hacia la derecha?",
+      "tipo": "opciones",
+      "opciones": ["△ invertido", "△ hacia la izquierda", "△ rotado 90°", "△ vertical"],
+      "respuestas_correctas": ["△ hacia la izquierda"]
+    },
+    {
+      "id": 30,
+      "pregunta": "Encuentra la figura que completa la secuencia de patrones: ◻️, ◼️, ◻️, ◼️, __",
+      "tipo": "opciones",
+      "opciones": ["◼️", "◻️", "△", "○"],
+      "respuestas_correctas": ["◻️"]
+    },
+    {
+      "id": 31,
+      "pregunta": "Selecciona la figura que coincide tras rotación de 90° hacia la derecha.",
+      "tipo": "opciones",
+      "opciones": ["▶️", "◀️", "△", "⬛"],
+      "respuestas_correctas": ["▶️"]
+    },
+    {
+      "id": 32,
+      "pregunta": "Si un cubo tiene una cara amarilla al frente y azul arriba, ¿qué cara estará a la izquierda tras girarlo 90° a la derecha?",
+      "tipo": "opciones",
+      "opciones": ["Amarilla", "Azul", "Roja", "Verde"],
+      "respuestas_correctas": ["Amarilla"]
+    },
+    {
+      "id": 33,
+      "pregunta": "Encuentra la figura que completa la serie: △, ◇, △, ◇, __",
+      "tipo": "opciones",
+      "opciones": ["△", "◇", "◻️", "◼️"],
+      "respuestas_correctas": ["△"]
+    },
+    {
+      "id": 34,
+      "pregunta": "Identifica la figura que es espejo vertical de ▶️",
+      "tipo": "opciones",
+      "opciones": ["◀️", "△", "◼️", "⬛"],
+      "respuestas_correctas": ["◀️"]
+    },
+    {
+      "id": 35,
+      "pregunta": "Selecciona la figura que NO tiene simetría: ◻️, △, ○, ◼️",
+      "tipo": "opciones",
+      "opciones": ["△", "◼️", "◻️", "○"],
+      "respuestas_correctas": ["△"]
+    },
+    {
+      "id": 36,
+      "pregunta": "Si giramos una figura 360°, ¿qué posición ocupará?",
+      "tipo": "opciones",
+      "opciones": ["Original", "Invertida", "Rotada lateral", "No visible"],
+      "respuestas_correctas": ["Original"]
+    },
+    {
+      "id": 37,
+      "pregunta": "Encuentra la figura que completa la secuencia de tamaños: pequeño, mediano, grande, __",
+      "tipo": "opciones",
+      "opciones": ["Muy grande", "Mediano", "Pequeño", "Extra grande"],
+      "respuestas_correctas": ["Muy grande"]
+    },
+    {
+      "id": 38,
+      "pregunta": "Selecciona la figura que representa una proyección frontal de un cubo.",
+      "tipo": "opciones",
+      "opciones": ["◼️", "⬛", "△", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 39,
+      "pregunta": "¿Cuál de las figuras tiene simetría rotacional de 180°?",
+      "tipo": "opciones",
+      "opciones": ["◼️", "▶️", "△", "↗️"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 40,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: △, △ 90°, △ 180°, △ 270°, __",
+      "tipo": "opciones",
+      "opciones": ["△ original", "△ invertido", "◼️", "○"],
+      "respuestas_correctas": ["△ original"]
+    },
+    {
+      "id": 41,
+      "pregunta": "Si un prisma rectangular se gira 180° sobre su eje vertical, ¿qué cara estará delante?",
+      "tipo": "opciones",
+      "opciones": ["Frontal original", "Trasera original", "Superior", "Inferior"],
+      "respuestas_correctas": ["Trasera original"]
+    },
+    {
+      "id": 42,
+      "pregunta": "Selecciona la figura que NO pertenece al grupo: ◻️, ◼️, △, ◻️ con línea",
+      "tipo": "opciones",
+      "opciones": ["△", "◼️", "◻️", "◻️ con línea"],
+      "respuestas_correctas": ["△"]
+    },
+    {
+      "id": 43,
+      "pregunta": "Identifica la figura que es espejo horizontal de ◻️ con línea",
+      "tipo": "opciones",
+      "opciones": ["◻️ con línea invertida", "◼️", "△", "○"],
+      "respuestas_correctas": ["◻️ con línea invertida"]
+    },
+    {
+      "id": 44,
+      "pregunta": "Encuentra la figura que completa la secuencia de patrones: ●, ○, ●, ○, __",
+      "tipo": "opciones",
+      "opciones": ["●", "○", "△", "◻️"],
+      "respuestas_correctas": ["●"]
+    },
+    {
+      "id": 45,
+      "pregunta": "¿Qué figura coincide tras rotación de 180°?",
+      "tipo": "opciones",
+      "opciones": ["◼️", "△", "▶️", "◻️"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 46,
+      "pregunta": "Si giramos un cubo 90° hacia la izquierda, ¿qué cara será visible a la derecha?",
+      "tipo": "opciones",
+      "opciones": ["Frontal", "Lateral derecha original", "Superior", "Trasera"],
+      "respuestas_correctas": ["Frontal"]
+    },
+    {
+      "id": 47,
+      "pregunta": "Encuentra la figura que completa la serie de tamaños: muy pequeño, pequeño, mediano, __",
+      "tipo": "opciones",
+      "opciones": ["Grande", "Pequeño", "Muy grande", "Extra grande"],
+      "respuestas_correctas": ["Grande"]
+    },
+    {
+      "id": 48,
+      "pregunta": "Selecciona la figura que representa una proyección lateral de un cubo.",
+      "tipo": "opciones",
+      "opciones": ["◼️", "⬛", "△", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 49,
+      "pregunta": "¿Qué figura es espejo vertical de ▶️?",
+      "tipo": "opciones",
+      "opciones": ["◀️", "△", "◼️", "⬛"],
+      "respuestas_correctas": ["◀️"]
+    },
+    {
+      "id": 50,
+      "pregunta": "Si rotamos una figura 360°, ¿qué posición ocupará?",
+      "tipo": "opciones",
+      "opciones": ["Original", "Invertida", "Rotada lateral", "No visible"],
+      "respuestas_correctas": ["Original"]
+    }
+  ]
+}

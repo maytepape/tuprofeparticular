@@ -1,0 +1,356 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "Encuentra el patrón y selecciona la figura que completa la serie: ▲, ▼, ▲, ▼, __",
+      "tipo": "opciones",
+      "opciones": ["▲", "▼", "■", "●"],
+      "respuestas_correctas": ["▲"]
+    },
+    {
+      "id": 2,
+      "pregunta": "Si A es a B como C es a __",
+      "tipo": "opciones",
+      "opciones": ["D", "E", "F", "G"],
+      "respuestas_correctas": ["D"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Encuentra la figura que difiere del resto: ■, ▲, ■, ■, ■",
+      "tipo": "opciones",
+      "opciones": ["■", "▲", "■", "■"],
+      "respuestas_correctas": ["▲"]
+    },
+    {
+      "id": 4,
+      "pregunta": "Selecciona la figura que completa la secuencia: ○, ●, ○, ●, __",
+      "tipo": "opciones",
+      "opciones": ["○", "●", "△", "■"],
+      "respuestas_correctas": ["○"]
+    },
+    {
+      "id": 5,
+      "pregunta": "Si todas las rosas son flores y algunas flores se marchitan, ¿algunas rosas se marchitan?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Indeterminado", "Todas"],
+      "respuestas_correctas": ["Indeterminado"]
+    },
+    {
+      "id": 6,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: ▲, ▲ 90°, ▲ 180°, __",
+      "tipo": "opciones",
+      "opciones": ["▲ 270°", "▲ invertido", "■", "○"],
+      "respuestas_correctas": ["▲ 270°"]
+    },
+    {
+      "id": 7,
+      "pregunta": "Selecciona la figura que es espejo horizontal de ▶️",
+      "tipo": "opciones",
+      "opciones": ["◀️", "△", "■", "○"],
+      "respuestas_correctas": ["◀️"]
+    },
+    {
+      "id": 8,
+      "pregunta": "Encuentra el patrón lógico: 2, 4, 8, 16, __",
+      "tipo": "opciones",
+      "opciones": ["18", "20", "32", "24"],
+      "respuestas_correctas": ["32"]
+    },
+    {
+      "id": 9,
+      "pregunta": "Si todos los A son B y todos los B son C, entonces todos los A son __",
+      "tipo": "opciones",
+      "opciones": ["C", "B", "A", "Indeterminado"],
+      "respuestas_correctas": ["C"]
+    },
+    {
+      "id": 10,
+      "pregunta": "Encuentra la figura que completa la serie: ■, ▲, ■, ▲, __",
+      "tipo": "opciones",
+      "opciones": ["■", "▲", "●", "△"],
+      "respuestas_correctas": ["■"]
+    },
+    {
+      "id": 11,
+      "pregunta": "Si un triángulo apunta hacia arriba y luego se gira 180°, ¿hacia dónde apunta?",
+      "tipo": "opciones",
+      "opciones": ["Hacia arriba", "Hacia abajo", "Hacia la izquierda", "Hacia la derecha"],
+      "respuestas_correctas": ["Hacia abajo"]
+    },
+    {
+      "id": 12,
+      "pregunta": "Encuentra la figura que difiere: ●, ●, ○, ●, ●",
+      "tipo": "opciones",
+      "opciones": ["●", "○", "●", "●"],
+      "respuestas_correctas": ["○"]
+    },
+    {
+      "id": 13,
+      "pregunta": "Si A → B → C y D → E → F, ¿cuál es el par que tiene la misma relación que A → C?",
+      "tipo": "opciones",
+      "opciones": ["D → F", "D → E", "E → F", "F → D"],
+      "respuestas_correctas": ["D → F"]
+    },
+    {
+      "id": 14,
+      "pregunta": "Selecciona la figura que completa la secuencia: △, △ invertido, △, △ invertido, __",
+      "tipo": "opciones",
+      "opciones": ["△", "△ invertido", "■", "○"],
+      "respuestas_correctas": ["△"]
+    },
+    {
+      "id": 15,
+      "pregunta": "Si todos los perros son animales y algunos animales son salvajes, ¿algunos perros son salvajes?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Indeterminado", "Todos"],
+      "respuestas_correctas": ["Indeterminado"]
+    },
+    {
+      "id": 16,
+      "pregunta": "Encuentra el patrón lógico: 1, 4, 9, 16, __",
+      "tipo": "opciones",
+      "opciones": ["20", "24", "25", "30"],
+      "respuestas_correctas": ["25"]
+    },
+    {
+      "id": 17,
+      "pregunta": "Selecciona la figura que es espejo vertical de ◼️",
+      "tipo": "opciones",
+      "opciones": ["◼️", "△", "▶️", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 18,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: ○, ○ 90°, ○ 180°, __",
+      "tipo": "opciones",
+      "opciones": ["○ 270°", "○ invertido", "■", "△"],
+      "respuestas_correctas": ["○ 270°"]
+    },
+    {
+      "id": 19,
+      "pregunta": "Si un cuadrado se gira 180°, ¿su posición cambia?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Depende", "Indeterminado"],
+      "respuestas_correctas": ["No"]
+    },
+    {
+      "id": 20,
+      "pregunta": "Encuentra la figura que difiere: ▲, ▲, ■, ▲, ▲",
+      "tipo": "opciones",
+      "opciones": ["▲", "■", "▲", "▲"],
+      "respuestas_correctas": ["■"]
+    },
+    {
+      "id": 21,
+      "pregunta": "Selecciona la figura que completa la serie: ●, ○, ●, ○, __",
+      "tipo": "opciones",
+      "opciones": ["●", "○", "△", "■"],
+      "respuestas_correctas": ["●"]
+    },
+    {
+      "id": 22,
+      "pregunta": "Si todos los gatos son felinos y algunos felinos son salvajes, ¿algunos gatos son salvajes?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Indeterminado", "Todos"],
+      "respuestas_correctas": ["Indeterminado"]
+    },
+    {
+      "id": 23,
+      "pregunta": "Encuentra la figura que completa la secuencia de patrones: ◻️, ◼️, ◻️, ◼️, __",
+      "tipo": "opciones",
+      "opciones": ["◻️", "◼️", "△", "○"],
+      "respuestas_correctas": ["◻️"]
+    },
+    {
+      "id": 24,
+      "pregunta": "Selecciona la figura que tiene simetría rotacional: ◼️, △, ▶️, ○",
+      "tipo": "opciones",
+      "opciones": ["◼️", "△", "▶️", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 25,
+      "pregunta": "Si una figura rota 90° tres veces, ¿cuántos grados ha rotado en total?",
+      "tipo": "opciones",
+      "opciones": ["180°", "270°", "360°", "90°"],
+      "respuestas_correctas": ["270°"]
+    },
+    {
+      "id": 26,
+      "pregunta": "Encuentra la figura que completa la serie: ◻️, △, ◻️, △, __",
+      "tipo": "opciones",
+      "opciones": ["◻️", "△", "●", "■"],
+      "respuestas_correctas": ["◻️"]
+    },
+    {
+      "id": 27,
+      "pregunta": "Selecciona la figura que es espejo horizontal de ▲",
+      "tipo": "opciones",
+      "opciones": ["▲ invertido", "▲", "■", "○"],
+      "respuestas_correctas": ["▲ invertido"]
+    },
+    {
+      "id": 28,
+      "pregunta": "Encuentra la figura que difiere: ○, ○, ●, ○, ○",
+      "tipo": "opciones",
+      "opciones": ["○", "●", "○", "○"],
+      "respuestas_correctas": ["●"]
+    },
+    {
+      "id": 29,
+      "pregunta": "Si un triángulo apunta hacia la derecha y se gira 90° hacia arriba, ¿hacia dónde apunta?",
+      "tipo": "opciones",
+      "opciones": ["Arriba", "Abajo", "Izquierda", "Derecha"],
+      "respuestas_correctas": ["Arriba"]
+    },
+    {
+      "id": 30,
+      "pregunta": "Encuentra la figura que completa la serie: ▲, ■, ▲, ■, __",
+      "tipo": "opciones",
+      "opciones": ["▲", "■", "○", "△"],
+      "respuestas_correctas": ["▲"]
+    },
+    {
+      "id": 31,
+      "pregunta": "Si A → B y B → C, ¿A → C?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Depende", "Indeterminado"],
+      "respuestas_correctas": ["Sí"]
+    },
+    {
+      "id": 32,
+      "pregunta": "Selecciona la figura que tiene simetría vertical: ◼️, ▶️, △, ○",
+      "tipo": "opciones",
+      "opciones": ["◼️", "▶️", "△", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 33,
+      "pregunta": "Encuentra la figura que completa la serie de rotaciones: ■, ■ 90°, ■ 180°, __",
+      "tipo": "opciones",
+      "opciones": ["■ 270°", "■ invertido", "△", "○"],
+      "respuestas_correctas": ["■ 270°"]
+    },
+    {
+      "id": 34,
+      "pregunta": "Si rotamos un círculo 360°, ¿su posición cambia?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Depende", "Indeterminado"],
+      "respuestas_correctas": ["No"]
+    },
+    {
+      "id": 35,
+      "pregunta": "Encuentra la figura que difiere: ▲, ▲, ■, ▲, ▲",
+      "tipo": "opciones",
+      "opciones": ["▲", "■", "▲", "▲"],
+      "respuestas_correctas": ["■"]
+    },
+    {
+      "id": 36,
+      "pregunta": "Selecciona la figura que completa la secuencia: ○, ●, ○, ●, __",
+      "tipo": "opciones",
+      "opciones": ["○", "●", "△", "■"],
+      "respuestas_correctas": ["○"]
+    },
+    {
+      "id": 37,
+      "pregunta": "Si todos los X son Y y todos los Y son Z, entonces todos los X son __",
+      "tipo": "opciones",
+      "opciones": ["Z", "Y", "X", "Indeterminado"],
+      "respuestas_correctas": ["Z"]
+    },
+    {
+      "id": 38,
+      "pregunta": "Encuentra la figura que completa la serie de tamaños: pequeño, mediano, grande, __",
+      "tipo": "opciones",
+      "opciones": ["Muy grande", "Mediano", "Pequeño", "Extra grande"],
+      "respuestas_correctas": ["Muy grande"]
+    },
+    {
+      "id": 39,
+      "pregunta": "Selecciona la figura que es espejo vertical de ▶️",
+      "tipo": "opciones",
+      "opciones": ["◀️", "△", "◼️", "○"],
+      "respuestas_correctas": ["◀️"]
+    },
+    {
+      "id": 40,
+      "pregunta": "Encuentra la figura que difiere: ◻️, ◻️, △, ◻️, ◻️",
+      "tipo": "opciones",
+      "opciones": ["△", "◻️", "◼️", "○"],
+      "respuestas_correctas": ["△"]
+    },
+    {
+      "id": 41,
+      "pregunta": "Si A → B → C y D → E → F, ¿D → F es equivalente a?",
+      "tipo": "opciones",
+      "opciones": ["A → C", "B → C", "E → F", "C → A"],
+      "respuestas_correctas": ["A → C"]
+    },
+    {
+      "id": 42,
+      "pregunta": "Selecciona la figura que completa la secuencia: ▲, ▲ invertido, ▲, ▲ invertido, __",
+      "tipo": "opciones",
+      "opciones": ["▲", "▲ invertido", "■", "○"],
+      "respuestas_correctas": ["▲"]
+    },
+    {
+      "id": 43,
+      "pregunta": "Encuentra la figura que completa la serie: ●, ○, ●, ○, __",
+      "tipo": "opciones",
+      "opciones": ["●", "○", "△", "■"],
+      "respuestas_correctas": ["●"]
+    },
+    {
+      "id": 44,
+      "pregunta": "Si una figura rota 90° cuatro veces, ¿qué grados ha rotado?",
+      "tipo": "opciones",
+      "opciones": ["360°", "270°", "180°", "90°"],
+      "respuestas_correctas": ["360°"]
+    },
+    {
+      "id": 45,
+      "pregunta": "Encuentra la figura que difiere: ◼️, ◼️, ▲, ◼️, ◼️",
+      "tipo": "opciones",
+      "opciones": ["▲", "◼️", "◻️", "○"],
+      "respuestas_correctas": ["▲"]
+    },
+    {
+      "id": 46,
+      "pregunta": "Selecciona la figura que tiene simetría horizontal: ◼️, ▶️, △, ○",
+      "tipo": "opciones",
+      "opciones": ["◼️", "▶️", "△", "○"],
+      "respuestas_correctas": ["◼️"]
+    },
+    {
+      "id": 47,
+      "pregunta": "Encuentra la figura que completa la serie: ◻️, △, ◻️, △, __",
+      "tipo": "opciones",
+      "opciones": ["◻️", "△", "●", "■"],
+      "respuestas_correctas": ["◻️"]
+    },
+    {
+      "id": 48,
+      "pregunta": "Si rotamos un cuadrado 180°, ¿su posición cambia?",
+      "tipo": "opciones",
+      "opciones": ["Sí", "No", "Depende", "Indeterminado"],
+      "respuestas_correctas": ["No"]
+    },
+    {
+      "id": 49,
+      "pregunta": "Selecciona la figura que es espejo horizontal de ▲",
+      "tipo": "opciones",
+      "opciones": ["▲ invertido", "▲", "■", "○"],
+      "respuestas_correctas": ["▲ invertido"]
+    },
+    {
+      "id": 50,
+      "pregunta": "Encuentra la figura que difiere: ◼️, ◼️, ◼️, △, ◼️",
+      "tipo": "opciones",
+      "opciones": ["△", "◼️", "◻️", "○"],
+      "respuestas_correctas": ["△"]
+    }
+  ]
+}

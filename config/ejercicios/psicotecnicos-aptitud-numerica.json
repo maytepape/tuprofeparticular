@@ -1,0 +1,356 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuál es el sinónimo de la palabra 'afable'?",
+      "tipo": "opciones",
+      "opciones": ["Amable", "Rudo", "Callado", "Orgulloso"],
+      "respuestas_correctas": ["Amable"]
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Qué palabra es antónima de 'frágil'?",
+      "tipo": "opciones",
+      "opciones": ["Débil", "Resistente", "Delicado", "Quebradizo"],
+      "respuestas_correctas": ["Resistente"]
+    },
+    {
+      "id": 3,
+      "pregunta": "Completa la analogía: 'Libro' es a 'lectura' como 'pincel' es a...",
+      "tipo": "opciones",
+      "opciones": ["Pintura", "Color", "Dibujo", "Lienzo"],
+      "respuestas_correctas": ["Pintura"]
+    },
+    {
+      "id": 4,
+      "pregunta": "¿Qué palabra significa lo mismo que 'efímero'?",
+      "tipo": "opciones",
+      "opciones": ["Duradero", "Breve", "Constante", "Eterno"],
+      "respuestas_correctas": ["Breve"]
+    },
+    {
+      "id": 5,
+      "pregunta": "Selecciona el antónimo de 'moderado'.",
+      "tipo": "opciones",
+      "opciones": ["Equilibrado", "Excesivo", "Sereno", "Tolerante"],
+      "respuestas_correctas": ["Excesivo"]
+    },
+    {
+      "id": 6,
+      "pregunta": "¿Cuál de las siguientes palabras está mal escrita?",
+      "tipo": "opciones",
+      "opciones": ["Excepción", "Preveer", "Recepción", "Percepción"],
+      "respuestas_correctas": ["Preveer"]
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Qué palabra completa la frase? 'El orador habló con gran _____ durante la conferencia.'",
+      "tipo": "opciones",
+      "opciones": ["Elocuencia", "Eloquencia", "Elocuentez", "Eloquence"],
+      "respuestas_correctas": ["Elocuencia"]
+    },
+    {
+      "id": 8,
+      "pregunta": "¿Qué palabra es un sinónimo de 'perezoso'?",
+      "tipo": "opciones",
+      "opciones": ["Vago", "Ágil", "Activo", "Rápido"],
+      "respuestas_correctas": ["Vago"]
+    },
+    {
+      "id": 9,
+      "pregunta": "Completa la analogía: 'Planta' es a 'tierra' como 'pez' es a...",
+      "tipo": "opciones",
+      "opciones": ["Aire", "Agua", "Bosque", "Sol"],
+      "respuestas_correctas": ["Agua"]
+    },
+    {
+      "id": 10,
+      "pregunta": "Selecciona el sinónimo más adecuado de 'celeridad'.",
+      "tipo": "opciones",
+      "opciones": ["Lentitud", "Rapidez", "Pesadez", "Dificultad"],
+      "respuestas_correctas": ["Rapidez"]
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Cuál es el antónimo de 'alegría'?",
+      "tipo": "opciones",
+      "opciones": ["Tristeza", "Euforia", "Satisfacción", "Optimismo"],
+      "respuestas_correctas": ["Tristeza"]
+    },
+    {
+      "id": 12,
+      "pregunta": "¿Qué palabra tiene un significado similar a 'discrepancia'?",
+      "tipo": "opciones",
+      "opciones": ["Acuerdo", "Desacuerdo", "Coincidencia", "Concordancia"],
+      "respuestas_correctas": ["Desacuerdo"]
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Qué palabra está relacionada con el campo de la literatura?",
+      "tipo": "opciones",
+      "opciones": ["Verso", "Hipótesis", "Vector", "Mecánica"],
+      "respuestas_correctas": ["Verso"]
+    },
+    {
+      "id": 14,
+      "pregunta": "Selecciona la palabra que mejor complete la frase: 'El científico presentó una teoría _____ basada en la evidencia.'",
+      "tipo": "opciones",
+      "opciones": ["Fundamentada", "Fundamental", "Fundida", "Fungible"],
+      "respuestas_correctas": ["Fundamentada"]
+    },
+    {
+      "id": 15,
+      "pregunta": "Elige el sinónimo de 'melancolía'.",
+      "tipo": "opciones",
+      "opciones": ["Tristeza", "Alegría", "Diversión", "Risa"],
+      "respuestas_correctas": ["Tristeza"]
+    },
+    {
+      "id": 16,
+      "pregunta": "¿Cuál es el antónimo de 'ascender'?",
+      "tipo": "opciones",
+      "opciones": ["Subir", "Bajar", "Elevar", "Aumentar"],
+      "respuestas_correctas": ["Bajar"]
+    },
+    {
+      "id": 17,
+      "pregunta": "Selecciona el sinónimo de 'inevitable'.",
+      "tipo": "opciones",
+      "opciones": ["Evitado", "Imposible de evitar", "Opcional", "Despreciable"],
+      "respuestas_correctas": ["Imposible de evitar"]
+    },
+    {
+      "id": 18,
+      "pregunta": "Completa la analogía: 'Reloj' es a 'tiempo' como 'termómetro' es a...",
+      "tipo": "opciones",
+      "opciones": ["Calor", "Temperatura", "Medición", "Frío"],
+      "respuestas_correctas": ["Temperatura"]
+    },
+    {
+      "id": 19,
+      "pregunta": "¿Qué palabra está mal escrita?",
+      "tipo": "opciones",
+      "opciones": ["Exámen", "Análisis", "Ensayo", "Evaluación"],
+      "respuestas_correctas": ["Exámen"]
+    },
+    {
+      "id": 20,
+      "pregunta": "¿Qué palabra significa 'dar a entender algo sin decirlo directamente'?",
+      "tipo": "opciones",
+      "opciones": ["Insinuar", "Declarar", "Expresar", "Afirmar"],
+      "respuestas_correctas": ["Insinuar"]
+    },
+    {
+      "id": 21,
+      "pregunta": "¿Cuál es el sinónimo más adecuado de 'tenaz'?",
+      "tipo": "opciones",
+      "opciones": ["Constante", "Débil", "Indeciso", "Voluble"],
+      "respuestas_correctas": ["Constante"]
+    },
+    {
+      "id": 22,
+      "pregunta": "Selecciona el antónimo de 'humildad'.",
+      "tipo": "opciones",
+      "opciones": ["Sencillez", "Modestia", "Soberbia", "Respeto"],
+      "respuestas_correctas": ["Soberbia"]
+    },
+    {
+      "id": 23,
+      "pregunta": "¿Qué palabra está relacionada con 'economía'?",
+      "tipo": "opciones",
+      "opciones": ["Mercado", "Bosque", "Río", "Montaña"],
+      "respuestas_correctas": ["Mercado"]
+    },
+    {
+      "id": 24,
+      "pregunta": "¿Cuál es el sinónimo de 'prolongar'?",
+      "tipo": "opciones",
+      "opciones": ["Acortar", "Extender", "Reducir", "Finalizar"],
+      "respuestas_correctas": ["Extender"]
+    },
+    {
+      "id": 25,
+      "pregunta": "Selecciona el antónimo de 'antiguo'.",
+      "tipo": "opciones",
+      "opciones": ["Viejo", "Usado", "Moderno", "Pasado"],
+      "respuestas_correctas": ["Moderno"]
+    },
+    {
+      "id": 26,
+      "pregunta": "¿Qué palabra es sinónima de 'hostil'?",
+      "tipo": "opciones",
+      "opciones": ["Amistoso", "Adverso", "Alegre", "Tímido"],
+      "respuestas_correctas": ["Adverso"]
+    },
+    {
+      "id": 27,
+      "pregunta": "Completa la analogía: 'Pájaro' es a 'volar' como 'pez' es a...",
+      "tipo": "opciones",
+      "opciones": ["Nadar", "Respirar", "Cantar", "Caminar"],
+      "respuestas_correctas": ["Nadar"]
+    },
+    {
+      "id": 28,
+      "pregunta": "Selecciona la palabra que está mal escrita.",
+      "tipo": "opciones",
+      "opciones": ["Inminente", "Imnenso", "Inmerso", "Inmóvil"],
+      "respuestas_correctas": ["Imnenso"]
+    },
+    {
+      "id": 29,
+      "pregunta": "¿Cuál es el antónimo de 'valiente'?",
+      "tipo": "opciones",
+      "opciones": ["Cobarde", "Intrépido", "Decidido", "Fuerte"],
+      "respuestas_correctas": ["Cobarde"]
+    },
+    {
+      "id": 30,
+      "pregunta": "¿Qué palabra completa la frase? 'El médico dio un diagnóstico _____.'",
+      "tipo": "opciones",
+      "opciones": ["Preciso", "Difuso", "Confuso", "Tardío"],
+      "respuestas_correctas": ["Preciso"]
+    },
+    {
+      "id": 31,
+      "pregunta": "Selecciona el sinónimo de 'cordial'.",
+      "tipo": "opciones",
+      "opciones": ["Agradable", "Distante", "Frío", "Indiferente"],
+      "respuestas_correctas": ["Agradable"]
+    },
+    {
+      "id": 32,
+      "pregunta": "Elige el antónimo de 'abundante'.",
+      "tipo": "opciones",
+      "opciones": ["Escaso", "Numeroso", "Suficiente", "Excesivo"],
+      "respuestas_correctas": ["Escaso"]
+    },
+    {
+      "id": 33,
+      "pregunta": "¿Qué palabra significa 'mostrar respeto o admiración'?",
+      "tipo": "opciones",
+      "opciones": ["Venerar", "Ofender", "Rechazar", "Ignorar"],
+      "respuestas_correctas": ["Venerar"]
+    },
+    {
+      "id": 34,
+      "pregunta": "Selecciona el sinónimo de 'incipiente'.",
+      "tipo": "opciones",
+      "opciones": ["Iniciado", "Desarrollado", "Finalizado", "Antiguo"],
+      "respuestas_correctas": ["Iniciado"]
+    },
+    {
+      "id": 35,
+      "pregunta": "¿Cuál es el antónimo de 'tranquilo'?",
+      "tipo": "opciones",
+      "opciones": ["Sereno", "Agitado", "Calmado", "Apacible"],
+      "respuestas_correctas": ["Agitado"]
+    },
+    {
+      "id": 36,
+      "pregunta": "¿Qué palabra es sinónima de 'coherente'?",
+      "tipo": "opciones",
+      "opciones": ["Lógico", "Inconexo", "Errático", "Incierto"],
+      "respuestas_correctas": ["Lógico"]
+    },
+    {
+      "id": 37,
+      "pregunta": "Completa la analogía: 'Sol' es a 'día' como 'luna' es a...",
+      "tipo": "opciones",
+      "opciones": ["Luz", "Noche", "Brillo", "Sombras"],
+      "respuestas_correctas": ["Noche"]
+    },
+    {
+      "id": 38,
+      "pregunta": "Selecciona el antónimo de 'feliz'.",
+      "tipo": "opciones",
+      "opciones": ["Triste", "Contento", "Satisfecho", "Animado"],
+      "respuestas_correctas": ["Triste"]
+    },
+    {
+      "id": 39,
+      "pregunta": "Elige el sinónimo de 'comprensible'.",
+      "tipo": "opciones",
+      "opciones": ["Claro", "Oscuro", "Difícil", "Enigmático"],
+      "respuestas_correctas": ["Claro"]
+    },
+    {
+      "id": 40,
+      "pregunta": "¿Qué palabra está mal escrita?",
+      "tipo": "opciones",
+      "opciones": ["Beneplácito", "Beneficio", "Veneficio", "Benefactor"],
+      "respuestas_correctas": ["Veneficio"]
+    },
+    {
+      "id": 41,
+      "pregunta": "¿Cuál es el sinónimo de 'prudente'?",
+      "tipo": "opciones",
+      "opciones": ["Cauto", "Atrevido", "Impulsivo", "Descuidado"],
+      "respuestas_correctas": ["Cauto"]
+    },
+    {
+      "id": 42,
+      "pregunta": "Selecciona el antónimo de 'temprano'.",
+      "tipo": "opciones",
+      "opciones": ["Pronto", "Tardío", "Rápido", "Ligero"],
+      "respuestas_correctas": ["Tardío"]
+    },
+    {
+      "id": 43,
+      "pregunta": "Completa la analogía: 'Hambre' es a 'comer' como 'sed' es a...",
+      "tipo": "opciones",
+      "opciones": ["Agua", "Beber", "Líquido", "Refresco"],
+      "respuestas_correctas": ["Beber"]
+    },
+    {
+      "id": 44,
+      "pregunta": "Elige el sinónimo de 'concluir'.",
+      "tipo": "opciones",
+      "opciones": ["Terminar", "Comenzar", "Proseguir", "Iniciar"],
+      "respuestas_correctas": ["Terminar"]
+    },
+    {
+      "id": 45,
+      "pregunta": "Selecciona el antónimo de 'oscuro'.",
+      "tipo": "opciones",
+      "opciones": ["Brillante", "Sombrío", "Tenue", "Apagado"],
+      "respuestas_correctas": ["Brillante"]
+    },
+    {
+      "id": 46,
+      "pregunta": "¿Qué palabra está relacionada con 'música'?",
+      "tipo": "opciones",
+      "opciones": ["Melodía", "Cocina", "Arquitectura", "Deporte"],
+      "respuestas_correctas": ["Melodía"]
+    },
+    {
+      "id": 47,
+      "pregunta": "¿Cuál es el sinónimo de 'eficiente'?",
+      "tipo": "opciones",
+      "opciones": ["Productivo", "Lento", "Deficiente", "Tardío"],
+      "respuestas_correctas": ["Productivo"]
+    },
+    {
+      "id": 48,
+      "pregunta": "Selecciona el antónimo de 'sabio'.",
+      "tipo": "opciones",
+      "opciones": ["Ignorante", "Inteligente", "Perspicaz", "Docto"],
+      "respuestas_correctas": ["Ignorante"]
+    },
+    {
+      "id": 49,
+      "pregunta": "Elige el sinónimo de 'adversidad'.",
+      "tipo": "opciones",
+      "opciones": ["Dificultad", "Ventaja", "Oportunidad", "Éxito"],
+      "respuestas_correctas": ["Dificultad"]
+    },
+    {
+      "id": 50,
+      "pregunta": "¿Qué palabra completa la analogía? 'Maestro' es a 'enseñar' como 'alumno' es a...",
+      "tipo": "opciones",
+      "opciones": ["Aprender", "Hablar", "Escribir", "Dirigir"],
+      "respuestas_correctas": ["Aprender"]
+    }
+  ]
+}
