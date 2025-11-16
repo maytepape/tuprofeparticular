@@ -1,4 +1,5 @@
 {
+  "vidas": 6,
   "numeroPreguntas": 10,
   "preguntas": [
     {

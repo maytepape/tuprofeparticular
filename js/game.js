@@ -5,12 +5,15 @@
 // Estado del juego
 const gameState = {
     vidas: 3,
+    vidasTotal: 3,
     preguntaActual: 0,
     preguntas: [],
+    pistas: [],
     preguntasOriginales: [],
     numeroPreguntas: 0,
     respuestaActual: null,
-    valoraciones: null
+    valoraciones: null,
+    pistaIndex: 0
 };
 
 // Elementos del DOM
@@ -18,12 +21,17 @@ const livesDisplay = document.getElementById('lives-display');
 const questionCounter = document.getElementById('question-counter');
 const questionText = document.getElementById('question-text');
 const answerContainer = document.getElementById('answer-container');
+const hintContainer = document.getElementById('hint-container');
+const hintText = document.getElementById('hint-text');
 const feedbackContainer = document.getElementById('feedback-container');
 const feedbackImg = document.getElementById('feedback-img');
 const feedbackText = document.getElementById('feedback-text');
 const checkBtn = document.getElementById('check-btn');
+const hintBtn = document.getElementById('hint-btn');
 const nextBtn = document.getElementById('next-btn');
 const retryBtn = document.getElementById('retry-btn');
+
+let hintBtnOriginalText = hintBtn ? hintBtn.textContent: 'Pedir pista';
 
 /**
  * Inicializa el juego
@@ -46,9 +54,18 @@ async function init() {
         const ejercicioData = await cargarJSON(`./config/ejercicios/${ejercicioSeleccionado}`);
         gameState.preguntasOriginales = ejercicioData.preguntas;
         gameState.numeroPreguntas = ejercicioData.numeroPreguntas;
+        if(ejercicioData.vidas){
+            gameState.vidas = gameState.vidasTotal = ejercicioData.vidas;
+        }
         
         // Preparar preguntas según la lógica especificada
         prepararPreguntas();
+
+        // Inicializar vidas
+        inicializaVidas();
+
+        // Inicializa preguntas
+        iniciaNumeroPreguntas();
         
         // Mostrar primera pregunta
         mostrarPregunta();
@@ -56,6 +73,7 @@ async function init() {
         // Event listeners
         checkBtn.addEventListener('click', comprobarRespuesta);
         nextBtn.addEventListener('click', siguientePregunta);
+        hintBtn.addEventListener('click', pedirPista);
         retryBtn.addEventListener('click', volverAIntentar);
         
     } catch (error) {
@@ -112,12 +130,14 @@ function mostrarPregunta() {
     // Limpiar contenedor de respuestas
     answerContainer.innerHTML = '';
     
-    // Ocultar feedback
+    // Ocultar feedback y pistas
     feedbackContainer.style.display = 'none';
+    hintContainer.style.display = 'none';
     
     // Mostrar botón comprobar, ocultar otros
     checkBtn.style.display = 'inline-block';
     nextBtn.style.display = 'none';
+    hintBtn.style.display = 'none';
     retryBtn.style.display = 'none';
     
     // Generar respuestas según el tipo
@@ -242,6 +262,9 @@ function comprobarRespuesta() {
     const pregunta = gameState.preguntas[gameState.preguntaActual];
     let esCorrecta = false;
     
+    // Reiniciar contador de pistas cada vez que se pulsa el botón Comprobar
+    gameState.pistaIndex = 0;
+
     // Obtener respuesta según el tipo
     switch (pregunta.tipo) {
         case 'numero':
@@ -347,6 +370,11 @@ function comprobarRespuesta() {
     } else {
         restarVida();
         retryBtn.style.display = 'inline-block';
+        if( pregunta.pistas && pregunta.pistas.length > 0) {
+            // Restauramos el texto original del botón de pista para la primera pista
+            hintBtn.textContent = hintBtnOriginalText;
+            hintBtn.style = 'inline-block';
+        }
     }
 }
 
@@ -362,13 +390,34 @@ function mostrarFeedback(esCorrecta) {
         feedbackText.textContent = mensajeAleatorio;
         feedbackImg.src = 'img/success.png';
         feedbackImg.alt = 'Correcto';
+        feedbackImg.onerror = () => {
+            feedbackImg.style.display = 'none';
+        };
     } else {
         const mensajes = gameState.valoraciones.fallos;
         const mensajeAleatorio = mensajes[Math.floor(Math.random() * mensajes.length)];
         feedbackText.textContent = mensajeAleatorio;
         feedbackImg.src = 'img/error.png';
         feedbackImg.alt = 'Incorrecto';
+        feedbackImg.onerror = () => {
+            feedbackImg.style.display = 'none';
+        };
     }
+}
+
+/**
+ * Inicializa la visualización de vidas
+ */
+function inicializaVidas() {
+    const corazones = '❤️ '.repeat(gameState.vidasTotal);
+    livesDisplay.textContent = corazones;
+}
+
+/**
+ * Inicializa el número de preguntas
+ */
+function iniciaNumeroPreguntas() {
+    questionCounter.textContent = `Pregunta 1 de ${gameState.preguntas.length}`;
 }
 
 /**
@@ -391,8 +440,60 @@ function restarVida() {
  */
 function actualizarVidas() {
     const corazones = '❤️ '.repeat(gameState.vidas);
-    const corazonesVacios = '🖤 '.repeat(3 - gameState.vidas);
+    const corazonesVacios = '🖤 '.repeat(gameState.vidasTotal - gameState.vidas);
     livesDisplay.textContent = corazones + corazonesVacios;
+}
+
+/**
+ * Pide una pista al jugador
+ */
+function pedirPista() {
+    const pregunta = gameState.preguntas[gameState.preguntaActual];
+
+    // Protección: pregunta inexistente o sin pistas
+    if (!pregunta || !Array.isArray(pregunta.pistas) || pregunta.pistas.length === 0) {
+        hintContainer.style.display = 'block';
+        hintText.textContent = 'No hay pistas disponibles.';
+        return;
+    }
+
+    // Filtrar pistas vacías/nulas y unir con un solo salto de línea entre ellas
+    const pistas = pregunta.pistas
+        .map(p => (p == null ? '' : String(p).trim()))
+        .filter(p => p.length > 0);
+
+    if (pistas.length === 0) {
+        hintContainer.style.display = 'block';
+        hintText.textContent = 'No hay pistas disponibles.';
+        return;
+    }
+
+    // Índice a mostrar (por seguridad)
+    const idx = (typeof gameState.pistaIndex === 'number') ? gameState.pistaIndex : 0;
+
+    // Mostrar la pista actual
+    hintText.style.whiteSpace = 'pre-wrap';
+    const nuevaPista = pistas[idx];
+    if (hintText.textContent && hintText.textContent.trim().length > 0) {
+        hintText.textContent = hintText.textContent + '\n' + nuevaPista;
+    } else {
+        hintText.textContent = nuevaPista;
+    }
+
+    // Preparar siguiente pista
+    gameState.pistaIndex = idx + 1;
+
+    if (gameState.pistaIndex >= pistas.length) {
+        // Ya se mostró la última pista: ocultar botón
+        hintBtn.style.display = 'none';
+    } else {
+        // Quedan pistas: mostrar botón con texto "otra pista"
+        hintBtn.textContent = '💡 Otra pista';
+        hintBtn.style.display = 'inline-block';
+    }
+
+    // Mostrar contenedor de pistas
+    hintContainer.style.display = 'block';
 }
 
 /**
