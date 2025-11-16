@@ -364,7 +364,9 @@ function comprobarRespuesta() {
     } else {
         restarVida();
         retryBtn.style.display = 'inline-block';
-        hintBtn.style.display = 'inline-block';
+        if( pregunta.pistas && pregunta.pistas.length > 0) {
+            hintBtn.style = 'inline-block';
+        }
     }
 }
 
