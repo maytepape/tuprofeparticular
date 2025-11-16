@@ -12,7 +12,8 @@ const gameState = {
     preguntasOriginales: [],
     numeroPreguntas: 0,
     respuestaActual: null,
-    valoraciones: null
+    valoraciones: null,
+    pistaIndex: 0
 };
 
 // Elementos del DOM
@@ -29,6 +30,8 @@ const checkBtn = document.getElementById('check-btn');
 const hintBtn = document.getElementById('hint-btn');
 const nextBtn = document.getElementById('next-btn');
 const retryBtn = document.getElementById('retry-btn');
+
+let hintBtnOriginalText = hintBtn ? hintBtn.textContent: 'Pedir pista';
 
 /**
  * Inicializa el juego
@@ -259,6 +262,9 @@ function comprobarRespuesta() {
     const pregunta = gameState.preguntas[gameState.preguntaActual];
     let esCorrecta = false;
     
+    // Reiniciar contador de pistas cada vez que se pulsa el botón Comprobar
+    gameState.pistaIndex = 0;
+
     // Obtener respuesta según el tipo
     switch (pregunta.tipo) {
         case 'numero':
@@ -365,6 +371,8 @@ function comprobarRespuesta() {
         restarVida();
         retryBtn.style.display = 'inline-block';
         if( pregunta.pistas && pregunta.pistas.length > 0) {
+            // Restauramos el texto original del botón de pista para la primera pista
+            hintBtn.textContent = hintBtnOriginalText;
             hintBtn.style = 'inline-block';
         }
     }
@@ -442,15 +450,8 @@ function actualizarVidas() {
 function pedirPista() {
     const pregunta = gameState.preguntas[gameState.preguntaActual];
 
-    // Protección: pregunta inexistente
-    if (!pregunta) {
-        hintContainer.style.display = 'block';
-        hintText.textContent = 'No hay pistas disponibles.';
-        return;
-    }
-
-    // Protección: pistas no definidas o no son array
-    if (!Array.isArray(pregunta.pistas) || pregunta.pistas.length === 0) {
+    // Protección: pregunta inexistente o sin pistas
+    if (!pregunta || !Array.isArray(pregunta.pistas) || pregunta.pistas.length === 0) {
         hintContainer.style.display = 'block';
         hintText.textContent = 'No hay pistas disponibles.';
         return;
@@ -467,9 +468,29 @@ function pedirPista() {
         return;
     }
 
-    // Asegurar que los saltos de línea se renderizan correctamente
+    // Índice a mostrar (por seguridad)
+    const idx = (typeof gameState.pistaIndex === 'number') ? gameState.pistaIndex : 0;
+
+    // Mostrar la pista actual
     hintText.style.whiteSpace = 'pre-wrap';
-    hintText.textContent = pistas.join('\n');
+    const nuevaPista = pistas[idx];
+    if (hintText.textContent && hintText.textContent.trim().length > 0) {
+        hintText.textContent = hintText.textContent + '\n' + nuevaPista;
+    } else {
+        hintText.textContent = nuevaPista;
+    }
+
+    // Preparar siguiente pista
+    gameState.pistaIndex = idx + 1;
+
+    if (gameState.pistaIndex >= pistas.length) {
+        // Ya se mostró la última pista: ocultar botón
+        hintBtn.style.display = 'none';
+    } else {
+        // Quedan pistas: mostrar botón con texto "otra pista"
+        hintBtn.textContent = '💡 Otra pista';
+        hintBtn.style.display = 'inline-block';
+    }
 
     // Mostrar contenedor de pistas
     hintContainer.style.display = 'block';
