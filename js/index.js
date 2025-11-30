@@ -11,22 +11,10 @@ const startBtn = document.getElementById('start-btn');
 // Como estamos usando JavaScript vanilla en el navegador, definimos manualmente
 // los archivos JSON disponibles
 const ejerciciosDisponibles = [
-    'psicotecnicos-aptitud-verbal.json',
-    'psicotecnicos-aptitud-numerica.json',
-    'psicotecnicos-aptitud-abstracto.json',
-    'psicotecnicos-aptitud-espacial.json',
-    'psicotecnicos-aptitud-verbal-dificil.json',
-    'psicotecnicos-aptitud-numerica-dificil.json',
-    'psicotecnicos-aptitud-abstracto-dificil.json',
-    'psicotecnicos-aptitud-espacial-dificil.json',
-    'matematicas-fracciones-equivalentes.json',
-    'matematicas-ordenacion-fracciones.json',
-    'matematicas-fracciones-generatrices.json',
-    'matematicas-fracciones-decimales.json',
-    'matematicas-operaciones-combinadas.json',
-    'matematicas-operaciones-fracciones.json',
-    'geografia-europea.json',
-    'ciencias-naturales.json'
+    "eq_primer_grado",
+    "mo-bi-polinomios",
+    "tipos_polinomios",
+    "valor_num_polinomio"
 ];
 
 /**

@@ -1,0 +1,21 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 5,
+  "preguntas": [
+    { "id": 1, "pregunta": "El polinomio 5x^3 + 2x^2 + x está...", "tipo": "opciones", "opciones": ["Ordenado", "Incompleto", "Reducido", "Completo"], "respuestas_correctas": ["Ordenado"] },
+    { "id": 2, "pregunta": "El polinomio x^4 + 2x^2 + 7 es...", "tipo": "opciones", "opciones": ["Ordenado", "Completo", "Incompleto", "Reducido"], "respuestas_correctas": ["Incompleto"] },
+    { "id": 3, "pregunta": "El polinomio 3x^2 + x^2 − 1 está...", "tipo": "opciones", "opciones": ["Reducido", "Ordenado", "Completo", "Incompleto"], "respuestas_correctas": ["Reducido"] },
+    { "id": 4, "pregunta": "El polinomio x^5 + x^4 + x^3 + x^2 + x + 1 es...", "tipo": "opciones", "opciones": ["Completo", "Incompleto", "Reducido", "Ordenado"], "respuestas_correctas": ["Completo"] },
+    { "id": 5, "pregunta": "Selecciona los polinomios incompletos", "tipo": "multiopciones", "opciones": ["x^4 + x^2 + 1", "x^3 + x^2 + x", "x^2 + 1", "x + 1"], "respuestas_correctas": ["x^4 + x^2 + 1", "x^2 + 1"] },
+    { "id": 6, "pregunta": "¿Cuál está correctamente ordenado?", "tipo": "opciones", "opciones": ["x + x^2 + 3", "4x^3 + x^2 + 1", "2 + 3x + x^3", "3x^2 + 5x + x^3"], "respuestas_correctas": ["4x^3 + x^2 + 1"] },
+    { "id": 7, "pregunta": "¿Cuál NO está reducido?", "tipo": "opciones", "opciones": ["3x^2 + 4", "x^3 + 2x^3 + 1", "x + 2", "5x^4"], "respuestas_correctas": ["x^3 + 2x^3 + 1"] },
+    { "id": 8, "pregunta": "Polinomio completo:", "tipo": "opciones", "opciones": ["x^3 + x + 1", "x^4 + x^3 + x^2 + x + 1", "2x + 7", "7"], "respuestas_correctas": ["x^4 + x^3 + x^2 + x + 1"] },
+    { "id": 9, "pregunta": "Polinomio reducido:", "tipo": "opciones", "opciones": ["x^2 + x - 1", "2x^2 + x^2", "x^3 + 2x^3 − 1", "x + x + 1"], "respuestas_correctas": ["x^2 + x - 1"] },
+    { "id": 10, "pregunta": "Selecciona los polinomios ordenados", "tipo": "multiopciones", "opciones": ["3x^2 + x + 1", "x + x^2 + 3", "5x^4 + 2x^2 + 1", "1 + x + x^3"], "respuestas_correctas": ["3x^2 + x + 1", "5x^4 + 2x^2 + 1"] },
+    { "id": 11, "pregunta": "Un polinomio con todos los grados desde el mayor hasta 0 es...", "tipo": "opciones", "opciones": ["Completo", "Incompleto", "Reducido", "Ordenado"], "respuestas_correctas": ["Completo"] },
+    { "id": 12, "pregunta": "Polinomio incompleto:", "tipo": "opciones", "opciones": ["x^5 + x^4 + x^3 + x^2 + x + 1", "x^4 + x + 1", "x^2 + x + 1", "x + 1"], "respuestas_correctas": ["x^4 + x + 1"] },
+    { "id": 13, "pregunta": "Un polinomio reducido...", "tipo": "opciones", "opciones": ["No tiene términos semejantes", "Está ordenado", "Tiene todos los grados", "Tiene términos repetidos"], "respuestas_correctas": ["No tiene términos semejantes"] },
+    { "id": 14, "pregunta": "Selecciona los polinomios reducidos", "tipo": "multiopciones", "opciones": ["2x^2 + 3x − 1", "x^3 + 2x^3", "5x − x + 1", "x^4 − 3"], "respuestas_correctas": ["2x^2 + 3x − 1", "x^4 − 3"] },
+    { "id": 15, "pregunta": "Un polinomio ordenado...", "tipo": "opciones", "opciones": ["Tiene todos los términos", "No tiene términos semejantes", "Tiene los términos de mayor a menor grado", "Solo tiene dos términos"], "respuestas_correctas": ["Tiene los términos de mayor a menor grado"] }
+  ]
+}

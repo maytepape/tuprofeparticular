@@ -1,0 +1,21 @@
+{
+  "vidas": 3,
+  "numeroPreguntas": 7,
+  "preguntas": [
+    { "id": 1, "pregunta": "Simplifica: 3x + 5x", "tipo": "opciones", "opciones": ["8x", "2x", "15x", "x^2"], "respuestas_correctas": ["8x"] },
+    { "id": 2, "pregunta": "Simplifica: 7a - 2a", "tipo": "opciones", "opciones": ["9a", "5a", "14a", "a"], "respuestas_correctas": ["5a"] },
+    { "id": 3, "pregunta": "Multiplica: (3x)(4x)", "tipo": "opciones", "opciones": ["12x", "7x^2", "12x^2", "3x^4"], "respuestas_correctas": ["12x^2"] },
+    { "id": 4, "pregunta": "Divide: 10x^3 ÷ 2x", "tipo": "opciones", "opciones": ["5x^2", "12x^2", "8x^3", "5x^4"], "respuestas_correctas": ["5x^2"] },
+    { "id": 5, "pregunta": "Suma: (2x + 3) + (4x - 1)", "tipo": "opciones", "opciones": ["6x + 2", "2x + 6", "4x + 2", "6x + 4"], "respuestas_correctas": ["6x + 2"] },
+    { "id": 6, "pregunta": "Resta: (7x - 4) - (3x + 2)", "tipo": "opciones", "opciones": ["4x - 6", "10x - 6", "4x + 6", "10x + 2"], "respuestas_correctas": ["4x - 6"] },
+    { "id": 7, "pregunta": "Multiplica: (x + 2)(x + 3)", "tipo": "opciones", "opciones": ["x^2 + 5x + 6", "x^2 + 6x + 5", "x^2 + 3x + 2", "x^2 + 2x + 3"], "respuestas_correctas": ["x^2 + 5x + 6"] },
+    { "id": 8, "pregunta": "¿Cuál es un monomio?", "tipo": "opciones", "opciones": ["3x^2", "x + 4", "5 - x", "x^2 + 2x"], "respuestas_correctas": ["3x^2"] },
+    { "id": 9, "pregunta": "¿Cuál es un binomio?", "tipo": "opciones", "opciones": ["x^2", "2x + 3", "x^3 + x^2 + 1", "7"], "respuestas_correctas": ["2x + 3"] },
+    { "id": 10, "pregunta": "¿Cuál es un polinomio?", "tipo": "opciones", "opciones": ["3x^2 + 2x - 1", "5x^3", "7", "x"], "respuestas_correctas": ["3x^2 + 2x - 1"] },
+    { "id": 11, "pregunta": "Selecciona todos los monomios", "tipo": "multiopciones", "opciones": ["3x", "x+1", "7a^2", "4 - x"], "respuestas_correctas": ["3x", "7a^2"] },
+    { "id": 12, "pregunta": "Selecciona los binomios", "tipo": "multiopciones", "opciones": ["x+2", "3x", "5x - 1", "x^2 + x + 1"], "respuestas_correctas": ["x+2", "5x - 1"] },
+    { "id": 13, "pregunta": "Divide: 16a^4 ÷ 4a^2", "tipo": "opciones", "opciones": ["4a^3", "4a^2", "20a^2", "4a"], "respuestas_correctas": ["4a^2"] },
+    { "id": 14, "pregunta": "Multiplica: (2x^2)(3x^3)", "tipo": "opciones", "opciones": ["6x^5", "5x^6", "6x^6", "x^5"], "respuestas_correctas": ["6x^5"] },
+    { "id": 15, "pregunta": "Suma: (4x^2 + 3x) + (x^2 - x)", "tipo": "opciones", "opciones": ["5x^2 + 2x", "3x^2 + 2x", "4x^2 + 4x", "5x^2 + 4x"], "respuestas_correctas": ["5x^2 + 2x"] }
+  ]
+}

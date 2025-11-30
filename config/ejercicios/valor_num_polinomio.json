@@ -1,0 +1,21 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 7,
+  "preguntas": [
+    { "id": 1, "pregunta": "Calcula el valor de P(x)=3x+2 para x=2", "tipo": "opciones", "opciones": ["8", "6", "10", "2"], "respuestas_correctas": ["8"] },
+    { "id": 2, "pregunta": "P(x)=2x^2 - x + 1 para x=3", "tipo": "opciones", "opciones": ["16", "10", "20", "12"], "respuestas_correctas": ["16"] },
+    { "id": 3, "pregunta": "P(x)=x^3 - 2x para x=2", "tipo": "opciones", "opciones": ["4", "8", "6", "2"], "respuestas_correctas": ["4"] },
+    { "id": 4, "pregunta": "P(x)=4x^2 + 5 para x=1", "tipo": "opciones", "opciones": ["9", "4", "5", "10"], "respuestas_correctas": ["9"] },
+    { "id": 5, "pregunta": "Selecciona los valores correctos para P(x)=x^2 - 1 si x=2 y x=3", "tipo": "multiopciones", "opciones": ["3", "8", "4", "9"], "respuestas_correctas": ["3", "8"] },
+    { "id": 6, "pregunta": "P(x)=6x - 3 para x=4", "tipo": "opciones", "opciones": ["21", "24", "15", "18"], "respuestas_correctas": ["21"] },
+    { "id": 7, "pregunta": "P(x)=x^2 + x para x=5", "tipo": "opciones", "opciones": ["30", "25", "20", "35"], "respuestas_correctas": ["30"] },
+    { "id": 8, "pregunta": "P(x)=2x^3 para x=2", "tipo": "opciones", "opciones": ["8", "12", "16", "10"], "respuestas_correctas": ["16"] },
+    { "id": 9, "pregunta": "P(x)=3x - 7 para x=5", "tipo": "opciones", "opciones": ["8", "5", "10", "3"], "respuestas_correctas": ["8"] },
+    { "id": 10, "pregunta": "P(x)=x^2 - 4x + 4 para x=2", "tipo": "opciones", "opciones": ["0", "2", "4", "6"], "respuestas_correctas": ["0"] },
+    { "id": 11, "pregunta": "Selecciona los valores correctos de P(x)=x^2 para x=1 y x=4", "tipo": "multiopciones", "opciones": ["1", "4", "16", "8"], "respuestas_correctas": ["1", "16"] },
+    { "id": 12, "pregunta": "P(x)=5 - 2x para x=3", "tipo": "opciones", "opciones": ["-1", "1", "2", "0"], "respuestas_correctas": ["-1"] },
+    { "id": 13, "pregunta": "P(x)=3x^2 - 3x para x=3", "tipo": "opciones", "opciones": ["18", "27", "9", "12"], "respuestas_correctas": ["18"] },
+    { "id": 14, "pregunta": "P(x)=x^3 - x^2 para x=2", "tipo": "opciones", "opciones": ["2", "4", "0", "6"], "respuestas_correctas": ["2"] },
+    { "id": 15, "pregunta": "P(x)=4x - 1 para x=6", "tipo": "opciones", "opciones": ["23", "24", "25", "26"], "respuestas_correctas": ["23"] }
+  ]
+}
