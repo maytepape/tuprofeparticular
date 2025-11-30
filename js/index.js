@@ -11,10 +11,10 @@ const startBtn = document.getElementById('start-btn');
 // Como estamos usando JavaScript vanilla en el navegador, definimos manualmente
 // los archivos JSON disponibles
 const ejerciciosDisponibles = [
-    "eq_primer_grado.json",
-    "mo-bi-polinomios.json",
-    "tipos_polinomios.json",
-    "valor_num_polinomio.json"
+    'eq_primer_grado.json',
+    'mo-bi-polinomios.json',
+    'tipos_polinomios.json',
+    'valor_num_polinomio.json'
 ];
 
 /**
