@@ -14,7 +14,9 @@ const ejerciciosDisponibles = [
     'eq_primer_grado.json',
     'mo-bi-polinomios.json',
     'tipos_polinomios.json',
-    'valor_num_polinomio.json'
+    'valor_num_polinomio.json',
+    'eq_primer_grado_problemas.json',
+    'eq_primer_grado_multiplicacion.json'
 ];
 
 /**

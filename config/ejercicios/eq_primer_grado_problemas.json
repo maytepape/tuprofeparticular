@@ -1,0 +1,292 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 5,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Qué número, aumentado en 15, es igual al triple de ese número disminuido en 5?",
+      "tipo": "opciones",
+      "opciones": [
+        "20",
+        "10",
+        "15",
+        "5"
+      ],
+      "respuestas_correctas": [
+        "10"
+      ],
+      "pistas": [
+        "Si el número es x, su aumento en 15 se escribe x + 15.",
+        "El triple del número disminuido en 5 se escribe 3(x - 5).",
+        "La ecuación a resolver es x + 15 = 3(x - 5)."
+      ]
+    },
+    {
+      "id": 2,
+      "pregunta": "La suma de tres números consecutivos es 66. ¿Cuál es el número más pequeño?",
+      "tipo": "opciones",
+      "opciones": [
+        "22",
+        "20",
+        "21",
+        "23"
+      ],
+      "respuestas_correctas": [
+        "21"
+      ],
+      "pistas": [
+        "Llama x al primer número.",
+        "Los siguientes dos números consecutivos serán x+1 y x+2.",
+        "La ecuación es x + (x + 1) + (x + 2) = 66."
+      ]
+    },
+    {
+      "id": 3,
+      "pregunta": "En un corral hay conejos (4 patas) y gallinas (2 patas). Si en total hay 35 cabezas y 94 patas, ¿cuántos conejos hay?",
+      "tipo": "opciones",
+      "opciones": [
+        "12",
+        "15",
+        "18",
+        "23"
+      ],
+      "respuestas_correctas": [
+        "12"
+      ],
+      "pistas": [
+        "Sea x el número de conejos. El número de gallinas será 35 - x.",
+        "El número de patas de los conejos es 4x.",
+        "La ecuación que relaciona las patas es 4x + 2(35 - x) = 94."
+      ]
+    },
+    {
+      "id": 4,
+      "pregunta": "Si al doble de un número le resto 8, obtengo 16. ¿Cuál es ese número?",
+      "tipo": "opciones",
+      "opciones": [
+        "8",
+        "16",
+        "12",
+        "4"
+      ],
+      "respuestas_correctas": [
+        "12"
+      ],
+      "pistas": [
+        "Llama x al número desconocido.",
+        "El doble de un número es 2x.",
+        "La ecuación es 2x - 8 = 16."
+      ]
+    },
+    {
+      "id": 5,
+      "pregunta": "Un padre tiene 40 años y su hijo 15. ¿Dentro de cuántos años la edad del padre será el doble de la del hijo?",
+      "tipo": "opciones",
+      "opciones": [
+        "5 años",
+        "8 años",
+        "10 años",
+        "12 años"
+      ],
+      "respuestas_correctas": [
+        "10 años"
+      ],
+      "pistas": [
+        "Sea x el número de años que tienen que pasar.",
+        "Dentro de x años, la edad del padre será 40 + x y la del hijo será 15 + x.",
+        "La ecuación es 40 + x = 2(15 + x)."
+      ]
+    },
+    {
+      "id": 6,
+      "pregunta": "El perímetro de un rectángulo mide 48 cm. Si el largo es el triple del ancho, ¿cuánto mide el ancho?",
+      "tipo": "opciones",
+      "opciones": [
+        "6 cm",
+        "18 cm",
+        "12 cm",
+        "8 cm"
+      ],
+      "respuestas_correctas": [
+        "6 cm"
+      ],
+      "pistas": [
+        "Llama x al ancho. El largo es 3x.",
+        "El perímetro es la suma de todos los lados.",
+        "La ecuación es 2(x + 3x) = 48."
+      ]
+    },
+    {
+      "id": 7,
+      "pregunta": "Dos amigos tienen juntos 120 €. Si uno tiene el doble que el otro, ¿cuánto dinero tiene el que tiene menos?",
+      "tipo": "opciones",
+      "opciones": [
+        "40 €",
+        "60 €",
+        "30 €",
+        "80 €"
+      ],
+      "respuestas_correctas": [
+        "40 €"
+      ],
+      "pistas": [
+        "Llama x al dinero que tiene el amigo que tiene menos.",
+        "El otro amigo tiene 2x.",
+        "La ecuación es x + 2x = 120."
+      ]
+    },
+    {
+      "id": 8,
+      "pregunta": "Al comprar una camisa, me hicieron un descuento de 5 € y pagué 25 €. ¿Cuál era el precio original de la camisa?",
+      "tipo": "opciones",
+      "opciones": [
+        "20 €",
+        "30 €",
+        "25 €",
+        "35 €"
+      ],
+      "respuestas_correctas": [
+        "30 €"
+      ],
+      "pistas": [
+        "Sea x el precio original.",
+        "El precio original menos el descuento es igual al precio pagado.",
+        "La ecuación es x - 5 = 25."
+      ]
+    },
+    {
+      "id": 9,
+      "pregunta": "Encuentra el número tal que su mitad, más su tercera parte, más una unidad, es igual al número original.",
+      "tipo": "opciones",
+      "opciones": [
+        "5",
+        "6",
+        "10",
+        "12"
+      ],
+      "respuestas_correctas": [
+        "6"
+      ],
+      "pistas": [
+        "La mitad del número es x/2 y su tercera parte es x/3.",
+        "La suma de estas partes más la unidad es x/2 + x/3 + 1.",
+        "La ecuación es x/2 + x/3 + 1 = x. Recuerda usar el m.c.m. para eliminar denominadores."
+      ]
+    },
+    {
+      "id": 10,
+      "pregunta": "Si un número se multiplica por 4 y se le resta 10, el resultado es 30. ¿Cuál es ese número?",
+      "tipo": "opciones",
+      "opciones": [
+        "8",
+        "10",
+        "12",
+        "5"
+      ],
+      "respuestas_correctas": [
+        "10"
+      ],
+      "pistas": [
+        "Llama x al número.",
+        "El número multiplicado por 4 y restado 10 se escribe 4x - 10.",
+        "La ecuación a resolver es 4x - 10 = 30."
+      ]
+    },
+    {
+      "id": 11,
+      "pregunta": "El doble de la edad de Ana más 5 años es igual a 35 años. ¿Qué edad tiene Ana?",
+      "tipo": "opciones",
+      "opciones": [
+        "15 años",
+        "20 años",
+        "12 años",
+        "10 años"
+      ],
+      "respuestas_correctas": [
+        "15 años"
+      ],
+      "pistas": [
+        "Sea x la edad de Ana.",
+        "El doble de su edad es 2x.",
+        "La ecuación es 2x + 5 = 35."
+      ]
+    },
+    {
+      "id": 12,
+      "pregunta": "Reparte 70 € entre dos personas de forma que la segunda reciba 10 € menos que la primera. ¿Cuánto recibe la primera persona?",
+      "tipo": "opciones",
+      "opciones": [
+        "30 €",
+        "40 €",
+        "45 €",
+        "35 €"
+      ],
+      "respuestas_correctas": [
+        "40 €"
+      ],
+      "pistas": [
+        "Llama x a la cantidad que recibe la primera persona.",
+        "La segunda persona recibe x - 10.",
+        "La suma de lo que reciben ambas es x + (x - 10) = 70."
+      ]
+    },
+    {
+      "id": 13,
+      "pregunta": "El cuádruple de un número es igual al número aumentado en 24. ¿Cuál es ese número?",
+      "tipo": "opciones",
+      "opciones": [
+        "6",
+        "8",
+        "12",
+        "3"
+      ],
+      "respuestas_correctas": [
+        "8"
+      ],
+      "pistas": [
+        "Llama x al número.",
+        "El cuádruple del número es 4x.",
+        "El número aumentado en 24 es x + 24.",
+        "La ecuación es 4x = x + 24."
+      ]
+    },
+    {
+      "id": 14,
+      "pregunta": "He recorrido la mitad de un camino y aún me quedan 5 km para llegar al final. ¿Cuántos kilómetros tiene el camino en total?",
+      "tipo": "opciones",
+      "opciones": [
+        "10 km",
+        "15 km",
+        "5 km",
+        "20 km"
+      ],
+      "respuestas_correctas": [
+        "10 km"
+      ],
+      "pistas": [
+        "Sea x la longitud total del camino.",
+        "La mitad del camino es x/2.",
+        "La longitud total es la mitad recorrida más lo que falta: x/2 + 5 = x."
+      ]
+    },
+    {
+      "id": 15,
+      "pregunta": "Hace 5 años la edad de Ernesto era el triple que la de Juan, que ahora tiene 15. ¿Cuántos años pasarán para que Juan tenga la edad actual de Ernesto?",
+      "tipo": "opciones",
+      "opciones": [
+        "5 años",
+        "10 años",
+        "15 años",
+        "20 años"
+      ],
+      "respuestas_correctas": [
+        "15 años"
+      ],
+      "pistas": [
+        "La edad actual de Juan es 15 años.",
+        "Hace 5 años, Juan tenía 15 - 5 = 10 años.",
+        "La edad de Ernesto hace 5 años era 3 * 10 = 30 años. Calcula la edad actual de Ernesto y luego cuántos años le faltan a Juan (15 años) para alcanzar esa edad."
+      ]
+    }
+  ]
+}

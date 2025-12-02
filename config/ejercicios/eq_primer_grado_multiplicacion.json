@@ -1,0 +1,186 @@
+{
+  "vidas": 2,
+  "numeroPreguntas": 5,
+  "preguntas": [
+    {
+      "id": 1,
+      "pregunta": "¿Cuál es el resultado de la multiplicación (2x + 1) * (3x - 2)?",
+      "tipo": "opciones",
+      "opciones": ["6x^2 - x - 2", "6x^2 + x - 2", "5x^2 - x - 1", "6x^2 - 4x + 1"],
+      "respuestas_correctas": ["6x^2 - x - 2"],
+      "pistas": [
+        "Multiplica primero los términos 2x * 3x y 2x * (-2).",
+        "Luego, multiplica los términos 1 * 3x y 1 * (-2).",
+        "Finalmente, simplifica sumando o restando los términos con x: (-4x + 3x). "
+      ]
+    },
+    {
+      "id": 2,
+      "pregunta": "¿Cuál es el resultado de la multiplicación (x - 5) * (x + 5)?",
+      "tipo": "opciones",
+      "opciones": ["x^2 - 10x + 25", "x^2 + 10x + 25", "x^2 - 25", "2x^2 - 25"],
+      "respuestas_correctas": ["x^2 - 25"],
+      "pistas": [
+        "Este es un caso de 'Suma por diferencia' o Identidad Notable: (a-b)(a+b) = a^2 - b^2.",
+        "Multiplica los términos: x * x, x * 5, -5 * x, y -5 * 5.",
+        "Observa que los términos con x se anulan: +5x - 5x = 0x."
+      ]
+    },
+    {
+      "id": 3,
+      "pregunta": "Si multiplicas (4x + 3) por (x - 1), ¿qué polinomio obtienes?",
+      "tipo": "opciones",
+      "opciones": ["4x^2 + x - 3", "4x^2 - x - 3", "4x^2 + 7x - 3", "4x^2 - 3"],
+      "respuestas_correctas": ["4x^2 - x - 3"],
+      "pistas": [
+        "El término con x^2 es 4x * x = 4x^2.",
+        "El término constante es 3 * (-1) = -3.",
+        "Los términos con x son -4x y +3x. Simplifica esta suma."
+      ]
+    },
+    {
+      "id": 4,
+      "pregunta": "El resultado de (5x - 2) * (2x + 4) es:",
+      "tipo": "opciones",
+      "opciones": ["10x^2 + 16x - 8", "10x^2 + 24x - 8", "10x^2 - 8x - 8", "10x^2 + 16"],
+      "respuestas_correctas": ["10x^2 + 16x - 8"],
+      "pistas": [
+        "Calcula el producto de los términos 5x * 4 y -2 * 2x.",
+        "La multiplicación de 5x * 2x te da el término principal.",
+        "Suma los términos semejantes: 20x y -4x."
+      ]
+    },
+    {
+      "id": 5,
+      "pregunta": "¿Qué polinomio se obtiene al calcular (3x - 1) * (3x + 1)?",
+      "tipo": "opciones",
+      "opciones": ["9x^2 - 1", "9x^2 - 6x - 1", "6x^2 + 1", "9x^2 + 6x + 1"],
+      "respuestas_correctas": ["9x^2 - 1"],
+      "pistas": [
+        "Recuerda la identidad notable: (a-b)(a+b) = a^2 - b^2.",
+        "Identifica a como 3x y b como 1.",
+        "Eleva al cuadrado 3x para obtener el primer término."
+      ]
+    },
+    {
+      "id": 6,
+      "pregunta": "Calcula el producto de (6x + 2) por (x + 5).",
+      "tipo": "opciones",
+      "opciones": ["6x^2 + 30x + 10", "6x^2 + 32x + 10", "6x^2 + 12x + 10", "7x^2 + 10"],
+      "respuestas_correctas": ["6x^2 + 32x + 10"],
+      "pistas": [
+        "El producto de los términos 6x * x y 2 * 5 te da los términos de los extremos.",
+        "Los términos con x son 6x * 5 y 2 * x.",
+        "Suma los términos con x: 30x + 2x."
+      ]
+    },
+    {
+      "id": 7,
+      "pregunta": "¿Cuál es el resultado de (-x + 7) * (2x - 3)?",
+      "tipo": "opciones",
+      "opciones": ["-2x^2 + 17x - 21", "2x^2 + 11x - 21", "-2x^2 - 17x - 21", "-2x^2 + 11x - 21"],
+      "respuestas_correctas": ["-2x^2 + 17x - 21"],
+      "pistas": [
+        "Multiplica los primeros términos: -x * 2x.",
+        "Multiplica los segundos términos: 7 * (-3).",
+        "El término con x proviene de -x * (-3) y 7 * 2x. Suma estos."
+      ]
+    },
+    {
+      "id": 8,
+      "pregunta": "Calcula: (3x - 4) * (3x - 4)",
+      "tipo": "opciones",
+      "opciones": ["9x^2 - 16", "9x^2 + 16", "9x^2 - 24x + 16", "9x^2 + 24x + 16"],
+      "respuestas_correctas": ["9x^2 - 24x + 16"],
+      "pistas": [
+        "Esto es un 'Cuadrado de una diferencia': (a-b)^2 = a^2 - 2ab + b^2.",
+        "El término a^2 es (3x)^2.",
+        "El término central es -2 * (3x) * 4."
+      ]
+    },
+    {
+      "id": 9,
+      "pregunta": "El producto (10x - 1) * (x + 1) es igual a:",
+      "tipo": "opciones",
+      "opciones": ["10x^2 + 9x - 1", "10x^2 - 9x - 1", "10x^2 + 11x - 1", "10x^2 + 1"],
+      "respuestas_correctas": ["10x^2 + 9x - 1"],
+      "pistas": [
+        "El término con x^2 es 10x * x.",
+        "El término constante es -1 * 1.",
+        "Los términos con x son 10x * 1 y -1 * x. Suma estas cantidades."
+      ]
+    },
+    {
+      "id": 10,
+      "pregunta": "Si multiplicamos (2x + 8) por (3x - 5), ¿cuál es el resultado?",
+      "tipo": "opciones",
+      "opciones": ["6x^2 + 14x - 40", "6x^2 + 34x - 40", "6x^2 - 14x - 40", "5x^2 + 3x + 3"],
+      "respuestas_correctas": ["6x^2 + 14x - 40"],
+      "pistas": [
+        "El producto de los términos principales es 2x * 3x.",
+        "El producto de los términos constantes es 8 * (-5).",
+        "Los términos con x son 2x * (-5) y 8 * 3x. ¡A sumar!"
+      ]
+    },
+    {
+      "id": 11,
+      "pregunta": "¿Qué polinomio resulta de (-2x - 3) * (-x - 4)?",
+      "tipo": "opciones",
+      "opciones": ["2x^2 + 11x + 12", "-2x^2 - 11x - 12", "2x^2 - 5x + 12", "2x^2 - 11x + 12"],
+      "respuestas_correctas": ["2x^2 + 11x + 12"],
+      "pistas": [
+        "Recuerda: negativo por negativo es positivo. Multiplica -2x * (-x).",
+        "Multiplica los términos constantes: -3 * (-4).",
+        "El término central se obtiene de -2x * (-4) y -3 * (-x)."
+      ]
+    },
+    {
+      "id": 12,
+      "pregunta": "La expresión (x + 1/2) * (x - 1/2) es igual a:",
+      "tipo": "opciones",
+      "opciones": ["x^2 + 1/4", "x^2 - 1/4", "x^2 - 1/2", "x^2 + x - 1/4"],
+      "respuestas_correctas": ["x^2 - 1/4"],
+      "pistas": [
+        "Es una diferencia de cuadrados. Identifica a y b.",
+        "El término a^2 es x^2.",
+        "El término b^2 es (1/2)^2."
+      ]
+    },
+    {
+      "id": 13,
+      "pregunta": "¿Cuál es el resultado de la multiplicación (7x - 1) * (x - 1)?",
+      "tipo": "opciones",
+      "opciones": ["7x^2 - 8x + 1", "7x^2 + 8x - 1", "7x^2 - 6x + 1", "7x^2 - 1"],
+      "respuestas_correctas": ["7x^2 - 8x + 1"],
+      "pistas": [
+        "Multiplica 7x * x y -1 * (-1) para los términos de los extremos.",
+        "Los términos con x son 7x * (-1) y -1 * x.",
+        "Suma los términos semejantes: -7x - x."
+      ]
+    },
+    {
+      "id": 14,
+      "pregunta": "Calcula: (9x + 0) * (x + 1)",
+      "tipo": "opciones",
+      "opciones": ["9x^2 + 9x", "9x^2 + x", "9x^2 + 9x + 1", "10x^2 + 1"],
+      "respuestas_correctas": ["9x^2 + 9x"],
+      "pistas": [
+        "Observa que el primer binomio es equivalente a 9x.",
+        "La operación se reduce a multiplicar un monomio por un binomio: 9x * (x + 1).",
+        "Aplica la propiedad distributiva: 9x * x + 9x * 1."
+      ]
+    },
+    {
+      "id": 15,
+      "pregunta": "El resultado de la multiplicación (0.5x + 3) * (2x - 6) es:",
+      "tipo": "opciones",
+      "opciones": ["x^2 + 6x - 18", "x^2 - 18", "x^2 - 6x - 18", "x^2 - 12x + 18"],
+      "respuestas_correctas": ["x^2 - 18"],
+      "pistas": [
+        "Multiplica los términos principales: 0.5x * 2x.",
+        "Los términos con x son 0.5x * (-6) y 3 * 2x.",
+        "Fíjate bien, -3x + 6x no es la respuesta. Hay un error en la pista. El término con x es 0.5x * (-6) = -3x y 3 * 2x = 6x. La suma es 3x. ¡Mira de nuevo las opciones!"
+      ]
+    }
+  ]
+}
